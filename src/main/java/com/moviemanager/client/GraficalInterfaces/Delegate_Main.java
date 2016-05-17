@@ -36,7 +36,7 @@ public class Delegate_Main extends Main{
 		this.usDTO=userDTO;
 		this.port = port;
 		this.serverName = serverName;
-		userNameLabel.setText(userDTO.getName());
+		UserNameLabel.setText(userDTO.getNick());
 		list = new ArrayList<MovieDTO>();
 	}
 	private void getComboBoxes(){
@@ -58,14 +58,6 @@ public class Delegate_Main extends Main{
 	}
 	private void find(){
 		getComboBoxes();
-		if(category && !name && !place && !rate)
-			try {
-				System.out.println("CATEGORIA");
-				list = rmi.getService().getMovieByCategory(comboBoxCategory.getSelectedItem().toString());
-			} catch (RemoteException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
 		if(!category && name && !place && !rate)
 			try {
 				System.out.println("NAME");
@@ -74,36 +66,10 @@ public class Delegate_Main extends Main{
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-		if(!category && !name && place && !rate)
-			try {
-				System.out.println("PLACE");
-				list = rmi.getService().getMovieByPlace(comboBoxPlace.getSelectedItem().toString());
-			} catch (RemoteException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
 		if(!category && !name && !place && rate)
 			try {
 				System.out.println("RATE");
 				list = rmi.getService().getMovieByRate(comboBoxRate.getSelectedItem().toString());
-			} catch (RemoteException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		if(category && name && !place && ! rate)
-			try {
-				System.out.println("NAME Y CATEGORIA");
-				list = rmi.getService().getMovieByNameAndCategory(comboBoxName.getSelectedItem().toString()
-						, comboBoxCategory.getSelectedItem().toString());
-			} catch (RemoteException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		if(!category && name && place && !rate)
-			try {
-				System.out.println("NAME Y PLACE");
-				list = rmi.getService().getMovieByNameAndPlace(comboBoxName.getSelectedItem().toString()
-						, comboBoxPlace.getSelectedItem().toString());
 			} catch (RemoteException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -117,42 +83,14 @@ public class Delegate_Main extends Main{
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-		if(category && !name && !place && rate)
-			try {
-				System.out.println("CATEGORIA Y RATE");
-				list = rmi.getService().getMovieByCategoryAndRate(comboBoxCategory.getSelectedItem().toString()
-						, comboBoxRate.getSelectedItem().toString());
-			} catch (RemoteException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		if(category && !name && place && !rate)
-			try {
-				System.out.println("CATEGORIA Y PLACE");
-				list = rmi.getService().getMovieByPlaceAndCategory(comboBoxPlace.getSelectedItem().toString()
-						, comboBoxCategory.getSelectedItem().toString());
-			} catch (RemoteException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		if(!category && !name && place && rate)
-			try {
-				System.out.println("PLACE Y RATE");
-				list = rmi.getService().getMovieByPlaceAndRate(comboBoxPlace.getSelectedItem().toString()
-						, comboBoxRate.getSelectedItem().toString());
-			} catch (RemoteException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			
 	}
 	
 	private void addToTable () {
 		deleteFromTable();
 		find();
 		for (MovieDTO mov : list) {
-		    table.setValueAt(mov.getNameR(), contadorFilas, 0);
-		    table.setValueAt(mov.getCategory(), contadorFilas, 1);
+		    table.setValueAt(mov.getNameM(), contadorFilas, 0);
+		    table.setValueAt(mov.getDescription(), contadorFilas, 1);
 		    table.setValueAt(mov.getRate(), contadorFilas, 2);
 		    contadorFilas++;
 		}
