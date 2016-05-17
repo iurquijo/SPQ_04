@@ -1,17 +1,18 @@
-package com.moviemanager.server.jdo;
+package com.moviemanager.server.DTO;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.jdo.annotations.Join;
-import javax.jdo.annotations.PersistenceCapable;
 import javax.jdo.annotations.Persistent;
 import javax.jdo.annotations.PrimaryKey;
 
-@PersistenceCapable
+import com.moviemanager.server.jdo.Actor;
+import com.moviemanager.server.jdo.Director;
+import com.moviemanager.server.jdo.Comment;
 
-public class Movie{
+public class MovieDTO implements Serializable{
 
 	/**
 	 * User implements Serializable to be transferred to the RMI client
@@ -21,30 +22,31 @@ public class Movie{
 	String nameM = null;
 	String rate = null;
 	String numRates = null;
-	String description = null;
+	String description=null;
 	Director director=null;
-	
+
 	@Persistent(mappedBy = "member", dependentElement = "true")
 	@Join
 	List<Comment> commentsM = new ArrayList<Comment>();
 	
-	@Persistent(mappedBy = "user", dependentElement = "true")
+	@Persistent(mappedBy = "movie", dependentElement = "true")
 	@Join
 	List<Actor> actorsM = new ArrayList<Actor>();
-	public Movie(){
+	public MovieDTO(){
 		this.nameM="";
 		this.rate="";
 		this.numRates="";
 		this.description="";
 		this.director=null;
-	
+		
 	}
-	public Movie(String nameM, String rate, String numRates, String description, Director director, List<Comment> commentsM, List<Actor> actorsM) {
+	public MovieDTO (String nameM, String rate, String numRates,
+			String description, Director director, List<Comment> commentsM,List<Actor> actorsM) {
 		super();
 		this.nameM = nameM;
 		this.rate = rate;
 		this.numRates = numRates;
-		this.description=description;
+		this.description = description;
 		this.director=director;
 		this.commentsM = commentsM;
 		this.actorsM = actorsM;
@@ -55,7 +57,7 @@ public class Movie{
 		return nameM;
 	}
 
-	public void setNameM(String nameM) {
+	public void setNameR(String nameM) {
 		this.nameM = nameM;
 	}
 
@@ -106,4 +108,5 @@ public class Movie{
 	public void setActorsM(List<Actor> actorsM) {
 		this.actorsM = actorsM;
 	}
+
 }

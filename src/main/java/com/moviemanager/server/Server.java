@@ -5,47 +5,84 @@ import java.rmi.RMISecurityManager;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 import com.moviemanager.client.GraficalInterfaces.*;
+import com.moviemanager.server.DAO.MovieAdvisorDAO;
+import com.moviemanager.server.DTO.MovieDTO;
+import com.moviemanager.server.DTO.UserDTO;
 
 import java.util.HashMap;
 import java.awt.EventQueue;
 
+import java.util.List;
+
+import com.moviemanager.server.jdo.*;
+
+
 public class Server extends UnicastRemoteObject implements IServer {
 
-	private static final long serialVersionUID = 1L;
-
 	protected Server() throws RemoteException {
-		
+		super();
+//		createDatabase();
 	}
 
-	public void func() throws RemoteException{
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					Login window = new Login();
-					window.frame.setVisible(true);
-				} catch (Exception e) {
-					System.out.println("Error al establecer la conexion");
-				}
-			}
-		});
+	private static final long serialVersionUID = 1L;
+	private MovieAdvisorDAO dao = new MovieAdvisorDAO();
+
+	
+	public List<MovieDTO> getMovieByName(String text) throws RemoteException {
+		return dao.getMovieByName(text);
 	}
 
-
-	public static void main(String[] args) {
-		if (System.getSecurityManager() == null) {
-			System.setSecurityManager(new RMISecurityManager());
-		}
-
-		String name = "//" + args[0] + ":" + args[1] + "/" + args[2];
-
-		try {
-			IServer objServer = new Server();
-			Naming.rebind(name, objServer);
-			System.out.println("Server '" + name + "' active and waiting...");
-		} catch (Exception e) {
-			System.err.println("Hello exception: " + e.getMessage());
-			e.printStackTrace();
-		}
+	public List<MovieDTO> getMovieByCategory(String text)throws RemoteException  {
+		return dao.getMovieByCategory(text);
 	}
 
+	public List<MovieDTO> getMovieByPlace(String text) throws RemoteException {
+		return dao.getMovieByPlace(text);
+	}
+
+	public List<MovieDTO> getMovieByRate(String text) throws RemoteException {
+		return dao.getMovieByRate(text);
+	}
+
+	public List<MovieDTO> getMovieByNameAndCategory(String text, String text1) throws RemoteException {
+		return dao.getMovieByNameAndCategory(text,text1);
+	}
+
+	public List<MovieDTO> getMovieByNameAndRate(String text, String text1)throws RemoteException  {
+		return dao.getMovieByNameAndRate(text,text1);
+	}
+
+	public List<MovieDTO> getMovieByNameAndPlace(String text, String text1) throws RemoteException {
+		return dao.getMovieByNameAndPlace(text,text1);
+	}
+
+	public List<MovieDTO> getMovieByPlaceAndCategory(String text, String text1)throws RemoteException  {
+		return dao.getMovieByPlaceAndCategory(text,text1);
+	}
+
+	public List<MovieDTO> getMovieByPlaceAndRate(String text, String text1)throws RemoteException  {
+		return dao.getMovieByPlaceAndRate(text,text1);
+	}
+
+	public List<MovieDTO> getMovieByCategoryAndRate(String text, String text1)throws RemoteException  {
+		return dao.getMovieByCategoryAndRate(text,text1);
+	}
+	
+	public void createDatabase() {
+		dao.createDatabase();
+	}
+	public boolean setComment(Comment comment)throws RemoteException  {
+		return dao.storeComment(comment);
+	}
+	public boolean addRateToMovie(Movie movie, String newRate) throws RemoteException{
+		return dao.addRateToMovie(movie, newRate);
+	}
+	public UserDTO retrieveUser(String name) throws RemoteException  {
+		return dao.retrieveUser(name);
+	}
+	public boolean addUser(String name, String password, String email){
+		return dao.addUser(name, password, email);
+	}
+
+	
 }
