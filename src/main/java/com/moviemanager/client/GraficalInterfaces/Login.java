@@ -3,31 +3,23 @@ package com.moviemanager.client.GraficalInterfaces;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import java.awt.BorderLayout;
-import java.awt.Image;
-import java.awt.Rectangle;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.IOException;
 
-import javax.swing.JTextArea;
 import javax.swing.JButton;
-import javax.swing.JComboBox;
 import javax.swing.JLabel;
-import javax.imageio.ImageIO;
-import javax.swing.ImageIcon;
 import javax.swing.JTextField;
 
 public class Login extends JFrame{
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	protected JTextField textFieldUsername, textFieldPassword;
 	protected JPanel panel;
 	protected JButton loginButton;
 	protected JButton registerButton;
-	protected JLabel label;
 
 	public Login() {
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -45,6 +37,7 @@ public class Login extends JFrame{
 				register();
 			}
 		});
+		panel.setLayout(null);
 		panel.add(registerButton);		
 		
 		loginButton = new JButton("Login");
@@ -68,7 +61,8 @@ public class Login extends JFrame{
 		textFieldPassword.setBounds(155, 134, 105, 19);
 		panel.add(textFieldPassword);
 		textFieldPassword.setColumns(10);
-		label = new JLabel("");
+		
+		JLabel label = new JLabel("");
 		label.setBounds(0, 0, 434, 273);
 		panel.add(label);
 		
@@ -76,6 +70,7 @@ public class Login extends JFrame{
 		repaint();
 		setVisible(true);
 	}
+	
 	protected void login(){
 		 
 	}

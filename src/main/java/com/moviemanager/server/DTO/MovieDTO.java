@@ -10,6 +10,7 @@ import javax.jdo.annotations.PrimaryKey;
 
 import com.moviemanager.server.jdo.Actor;
 import com.moviemanager.server.jdo.Director;
+import com.moviemanager.server.jdo.Movie;
 import com.moviemanager.server.jdo.Comment;
 
 public class MovieDTO implements Serializable{
@@ -39,6 +40,16 @@ public class MovieDTO implements Serializable{
 		this.description="";
 		this.director=null;
 		
+	}
+	public MovieDTO (Movie movie) {
+		super();
+		this.nameM = movie.getNameM();
+		this.rate = movie.getRate();
+		this.numRates = movie.getNumRates();
+		this.description = movie.getDescription();
+		this.director = movie.getDirector();
+		this.commentsM = commentsM;
+		this.actorsM = actorsM;
 	}
 	public MovieDTO (String nameM, String rate, String numRates,
 			String description, Director director, List<Comment> commentsM,List<Actor> actorsM) {

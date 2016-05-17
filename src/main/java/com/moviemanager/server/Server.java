@@ -32,42 +32,14 @@ public class Server extends UnicastRemoteObject implements IServer {
 		return dao.getMovieByName(text);
 	}
 
-	public List<MovieDTO> getMovieByCategory(String text)throws RemoteException  {
-		return dao.getMovieByCategory(text);
-	}
-
-	public List<MovieDTO> getMovieByPlace(String text) throws RemoteException {
-		return dao.getMovieByPlace(text);
-	}
-
 	public List<MovieDTO> getMovieByRate(String text) throws RemoteException {
 		return dao.getMovieByRate(text);
-	}
-
-	public List<MovieDTO> getMovieByNameAndCategory(String text, String text1) throws RemoteException {
-		return dao.getMovieByNameAndCategory(text,text1);
 	}
 
 	public List<MovieDTO> getMovieByNameAndRate(String text, String text1)throws RemoteException  {
 		return dao.getMovieByNameAndRate(text,text1);
 	}
 
-	public List<MovieDTO> getMovieByNameAndPlace(String text, String text1) throws RemoteException {
-		return dao.getMovieByNameAndPlace(text,text1);
-	}
-
-	public List<MovieDTO> getMovieByPlaceAndCategory(String text, String text1)throws RemoteException  {
-		return dao.getMovieByPlaceAndCategory(text,text1);
-	}
-
-	public List<MovieDTO> getMovieByPlaceAndRate(String text, String text1)throws RemoteException  {
-		return dao.getMovieByPlaceAndRate(text,text1);
-	}
-
-	public List<MovieDTO> getMovieByCategoryAndRate(String text, String text1)throws RemoteException  {
-		return dao.getMovieByCategoryAndRate(text,text1);
-	}
-	
 	public void createDatabase() {
 		dao.createDatabase();
 	}
@@ -83,6 +55,5 @@ public class Server extends UnicastRemoteObject implements IServer {
 	public boolean addUser(String name, String password, String email){
 		return dao.addUser(name, password, email);
 	}
-
 	
 }
