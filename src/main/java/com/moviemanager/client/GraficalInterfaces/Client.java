@@ -19,7 +19,7 @@ public class Client {
 		}
 
 		try {
-			new Delegate_Login(args[0], args[1], args[2]);
+			new Delegate_Login("127.0.0.1", args[1], args[2]);
 			
 		} catch (Exception e) {
 			System.err.println("RMI Example exception: " + e.getMessage());

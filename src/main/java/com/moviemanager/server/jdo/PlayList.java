@@ -21,6 +21,7 @@ public class PlayList implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
     private String name="";
+    private User user;
     private ArrayList<Movie> playlistMovie = new ArrayList<Movie>();
 
     

@@ -24,6 +24,7 @@ public class Delegate_Login extends Login {
 	String IP, port, serverName;
 
 	public Delegate_Login(String IP, String port, String serverName) {
+
 		rmi = new RMIServiceLocator(IP, port, serverName);
 		this.IP = IP;
 		this.port = port;
@@ -51,6 +52,7 @@ public class Delegate_Login extends Login {
 		UserDTO userDTO = new UserDTO("", "");
 		try {
 			userDTO = rmi.getService().retrieveUser(username);
+			System.out.println("USERNAME" + userDTO.getPassword());
 		} catch (RemoteException e1) {
 			e1.printStackTrace();
 		}

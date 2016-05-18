@@ -24,11 +24,11 @@ public class Movie{
 	String description = null;
 	Director director=null;
 	
-	@Persistent(mappedBy = "member", dependentElement = "true")
+	@Persistent(mappedBy = "user", dependentElement = "true")
 	@Join
 	List<Comment> commentsM = new ArrayList<Comment>();
 	
-	@Persistent(mappedBy = "user", dependentElement = "true")
+	@Persistent(mappedBy = "name", dependentElement = "true")
 	@Join
 	List<Actor> actorsM = new ArrayList<Actor>();
 	public Movie(){

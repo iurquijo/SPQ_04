@@ -8,10 +8,10 @@ public class Main {
 			System.setSecurityManager(new SecurityManager());
 		}
 
-		String serverName = "//" + args[0] + ":" + args[1] + "/" + args[2];
+		String serverName = "//" + "127.0.0.1" + ":" + args[1] + "/" + args[2];
 
 		try {
-			
+			System.out.println("Servername" + serverName);
 			IServer server = new Server();
 //			((Server) server).createDatabase();
 
