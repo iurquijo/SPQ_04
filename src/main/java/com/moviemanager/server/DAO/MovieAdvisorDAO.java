@@ -157,7 +157,7 @@ public class MovieAdvisorDAO {
 			Movie movie2 = new Movie("Titanic", "9", "0", "Drama", new Director(),new ArrayList<Comment>(),new ArrayList<Actor>());
 			
 			User user1 = new User("asd@asd","aitor","aitor",new ArrayList<Comment>(), new ArrayList<PlayList>());
-			User user2 = new User("asd@asd","iñigo","iñigo",new ArrayList<Comment>(), new ArrayList<PlayList>());
+			User user2 = new User("asd@asd","inigo","inigo",new ArrayList<Comment>(), new ArrayList<PlayList>());
 			User user3 = new User("asd@asd","serhat","serhat",new ArrayList<Comment>(), new ArrayList<PlayList>());
 			User user4 = new User("asd@asd","george","george",new ArrayList<Comment>(), new ArrayList<PlayList>());
 			User user5 = new User("asd@asd","sergio","sergio",new ArrayList<Comment>(), new ArrayList<PlayList>());
@@ -211,60 +211,42 @@ public class MovieAdvisorDAO {
 		}
 	}
 
+	public boolean addRateToMovie(MovieDTO movie, String newRate) {
 
-	public boolean storeComment(Comment comment) {
-		boolean ok = false;
-		PersistenceManager pm = pmf.getPersistenceManager();
-		Transaction tx = pm.currentTransaction();
-		try {
-			tx.begin();
-			System.out.println("   * Storing a comment: " + comment);
-			pm.makePersistent(comment);
-			tx.commit();
-			ok = true;
-		} catch (Exception ex) {
-			System.out.println("   $ Error storing an object: " + ex.getMessage());
-		} finally {
-			if (tx != null && tx.isActive()) {
-				tx.rollback();
+			MovieDTO m = movie;
+			Movie movieTr = null;
+			PersistenceManager pm = pmf.getPersistenceManager();
+			Transaction tx = pm.currentTransaction();
+
+			try {
+				tx.begin();
+				System.out.println("   * Updating a rate: " + newRate);
+
+				Extent<Movie> extent = pm.getExtent(Movie.class, true);
+				for (Movie movieT : extent) {
+					if(movieT.getNameM().toString().equals(m.getNameM().toString())){
+						//					pm.deletePersistent(restaurantT);
+						movieTr = movieT;
+					}
+				}
+				movieTr.setRate((Integer.parseInt(movieTr.getRate())*Integer.parseInt(movieTr.getNumRates()) 
+						+ (Integer.parseInt(newRate))) / (Integer.parseInt(movieTr.getNumRates()) + 1) +"");
+				movieTr.setNumRates(Integer.parseInt(movieTr.getNumRates())+1+"");
+				System.out.println("METIENDO EL RESTAURANTE OTRA VEZ EN LA BASE DE DATOS: "+movieTr.getNameM());
+				pm.makePersistent(movieTr);
+				tx.commit();
+			} catch (Exception ex) {
+				System.out.println("Error updating a user: " + ex.getMessage());
+			} finally {
+				if (tx != null && tx.isActive()) {
+					tx.rollback();
+				}
+
+				pm.close();
 			}
+			return true;
 
-			pm.close();
 		}
-		return ok;
-	}
-
-	public boolean addRateToMovie(Movie movie, String newRate) {
-		boolean ok = false;
-		int newRate2 = Integer.parseInt(newRate);
-		int mediaRates = Integer.parseInt(movie.getRate());
-		int numRates = Integer.parseInt(movie.getNumRates());
-		int newMediaRates = ((mediaRates * numRates) + newRate2) / (numRates + 1);
-		movie.setRate(String.valueOf(newMediaRates));
-		movie.setNumRates(String.valueOf((numRates) + 1));
-		PersistenceManager pm = pmf.getPersistenceManager();
-		Transaction tx = pm.currentTransaction();
-
-		try {
-			tx.begin();
-			System.out.println("   * Updating a movie (mediaRate): " + newMediaRates);
-
-			pm.makePersistent(movie);
-			tx.commit();
-			ok = true;
-
-		} catch (Exception ex) {
-			System.out.println("Error updating a user: " + ex.getMessage());
-		} finally {
-			if (tx != null && tx.isActive()) {
-				tx.rollback();
-			}
-
-			pm.close();
-		}
-	    return ok;
-
-	}
 	@SuppressWarnings("finally")
 	public UserDTO retrieveUser(String nick){
 		User u = new User();

@@ -18,8 +18,8 @@ public interface IServer extends Remote {
 	public List<MovieDTO> getMovieByName(String text) throws RemoteException;
 	public List<MovieDTO> getMovieByRate(String text)throws RemoteException ;
 	public List<MovieDTO> getMovieByNameAndRate(String text, String text1)throws RemoteException  ;
-	public boolean setComment(Comment comment)throws RemoteException;
-	public boolean addRateToMovie(Movie movie, String newRate) throws RemoteException;
+	public boolean setComment(String text, MovieDTO movie, UserDTO userDTO)throws RemoteException;
+	public boolean addRateToMovie(MovieDTO movie, String newRate) throws RemoteException;
 	public UserDTO retrieveUser(String name)throws RemoteException ;
 	public boolean addUser(String name, String password, String email)throws RemoteException;
 }

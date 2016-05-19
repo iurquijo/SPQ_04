@@ -4,7 +4,7 @@
 package com.moviemanager.app;
 
 import junit.framework.JUnit4TestAdapter;
-import com.moviemanager.client.*;
+//import com.moviemanager.client.*;
 import com.moviemanager.client.GraficalInterfaces.Delegate_Login;
 import com.moviemanager.client.GraficalInterfaces.Delegate_Main;
 import com.moviemanager.client.GraficalInterfaces.Delegate_Register;
@@ -100,13 +100,13 @@ public class MovieAdvisorTest {
 						"This is a test to check how mvn test executes this test without external interaction; JVM properties by program");
 				System.out.println("**************: " + cwd);
 				System.setProperty("java.rmi.server.codebase", "file:" + cwd);
-				System.setProperty("java.security.policy", "target\\test-classes\\security\\java.policy");
+				System.setProperty("java.security.policy", "target/test-classes/security/java.policy");
 
 				if (System.getSecurityManager() == null) {
 					System.setSecurityManager(new RMISecurityManager());
 				}
 
-				String name = "//127.0.0.1:1099/RestaurantAdvisor";
+				String name = "//127.0.0.1:1099/MovieManagerServer";
 				System.out.println("BeforeClass - Setting the server ready TestServer name: " + name);
 
 				try {
@@ -193,13 +193,13 @@ public class MovieAdvisorTest {
 	@Before
 	public void setUpClient() {
 		try {
-			System.setProperty("java.security.policy", "target\\test-classes\\security\\java.policy");
+			System.setProperty("java.security.policy", "target/test-classes/security/java.policy");
 
 			if (System.getSecurityManager() == null) {
 				System.setSecurityManager(new RMISecurityManager());
 			}
 
-			String name = "//127.0.0.1:1099/RestaurantAdvisor";
+			String name = "//127.0.0.1:1099/MovieManagerServer";
 			System.out.println("BeforeTest - Setting the client ready for calling TestServer name: " + name);
 			server = (IServer) java.rmi.Naming.lookup(name);
 		} catch (Exception re) {
@@ -230,7 +230,7 @@ public class MovieAdvisorTest {
 	 * assertTrue( true ); }
 	 */
 	@Test
-	public void getRestaurantByNameTest() {
+	public void getMovieByNameTest() {
 		boolean test = false;
 		int cont = 0;
 		try {
@@ -257,7 +257,7 @@ public class MovieAdvisorTest {
 	}
 
 	@Test
-	public void getRestaurantByRateTest() {
+	public void getMovieByRateTest() {
 		boolean test = false;
 		int cont = 0;
 
@@ -280,7 +280,7 @@ public class MovieAdvisorTest {
 	}
 
 	@Test
-	public void getRestaurantByNameAndRateTest() {
+	public void getMovieByNameAndRateTest() {
 		boolean test = false;
 		int cont = 0;
 
@@ -308,12 +308,12 @@ public class MovieAdvisorTest {
 	@Test
 	public void setCommentTest() {
 		boolean test = false;
-		MovieDTO rest = new MovieDTO(new Movie("Titanic", "9", "0", "Asea",new Director(), new ArrayList<Comment>(), new ArrayList<Actor>()));
+		MovieDTO rest = new MovieDTO("Hulk", "5", "0", "heroe", new Director(), new ArrayList<Comment>(), new ArrayList<Actor>());
 		System.out.println("------------------------------------------------" + test);
 
 		try {
 			System.out.println("Test 5 - set a comment");
-			test = server.storeComment("new comment", rest, (new UserDTO(m.getNick(), m.getPassword())));
+			test = server.setComment("new comment", rest, new UserDTO(m.getNick(), m.getPassword()));
 			System.out.println("------------------------------------------------" + test);
 		} catch (Exception re) {
 			System.err.println(" # Messenger RemoteException: " + re.getMessage());
@@ -328,12 +328,13 @@ public class MovieAdvisorTest {
 	@Test
 	public void addRateToMovieTest() {
 		boolean test = false;
+		List<Comment> comments = new ArrayList<Comment>();
+		List<Actor> actors = new ArrayList<Actor>();
 
 		try {
 			System.out.println("Test 6 - set a rate to a movie");
 			test = server.addRateToMovie(
-					new MovieDTO(
-							new Movie("Titanic", "9", "0", "sea", new Director(), new ArrayList<Comment>(), new ArrayList<Actor>())), "5");
+					new MovieDTO("Name","5", "1", "Desc", new Director(), comments, actors ), "5");
 
 		} catch (Exception re) {
 			System.err.println(" # Messenger RemoteException: " + re.getMessage());
@@ -365,7 +366,7 @@ public class MovieAdvisorTest {
 	@Test
 	public void getMemberTest() {
 		boolean test = false;
-		UserDTO m = new UserDTO();
+		UserDTO m = new UserDTO("aitor","aitor");
 		try {
 			System.out.println("Test 13 - sget a user");
 
@@ -386,10 +387,10 @@ public class MovieAdvisorTest {
 
 	@Test
 	public void MemberDAOTest() {
-		UserDTO mdto = new UserDTO("iñigo", "iñigo");
+		UserDTO mdto = new UserDTO("inigo", "inigo");
 		mdto.getNick();
 		mdto.getPassword();
-		if (mdto.getNick() == "iñigo") {
+		if (mdto.getNick() == "inigo") {
 			assertTrue(true);
 		} else
 			assertTrue(false);
@@ -409,7 +410,7 @@ public class MovieAdvisorTest {
 	}
 	@Test
 	public void MovieDAOTest() {
-		MovieDTO mdto = new MovieDTO("Hulk", "5", "0", "heroe", new Director(), new ArrayList<Comment>(), new ArrayList<Actor());
+		MovieDTO mdto = new MovieDTO("Hulk", "5", "0", "heroe", new Director(), new ArrayList<Comment>(), new ArrayList<Actor>());
 		new MovieDTO();
 		Movie m = new Movie();
 		m.setCommentsM(mdto.getCommentsM());

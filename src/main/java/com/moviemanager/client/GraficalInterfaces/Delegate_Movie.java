@@ -51,7 +51,7 @@ public class Delegate_Movie extends MovieWindow{
 		getComboBoxe();
 		if (rate) {
 			try {
-				rmi.getService().addRateToMovie(movie, comboBoxRate.getSelectedItem().toString());
+				rmi.getService().addRateToMovie(movieDTO, comboBoxRate.getSelectedItem().toString());
 			} catch (RemoteException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -74,7 +74,7 @@ public class Delegate_Movie extends MovieWindow{
 		String text = textField_CommentText.getText();
 		Comment comment = new Comment(text,  user, movie);
 		try {
-			rmi.getService().setComment(comment);
+			rmi.getService().setComment(text, movieDTO, userDTO);
 		} catch (RemoteException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

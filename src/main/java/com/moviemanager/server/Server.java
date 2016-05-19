@@ -19,7 +19,7 @@ import com.moviemanager.server.jdo.*;
 
 public class Server extends UnicastRemoteObject implements IServer {
 
-	protected Server() throws RemoteException {
+	public Server() throws RemoteException {
 		super();
 //		createDatabase();
 	}
@@ -43,10 +43,10 @@ public class Server extends UnicastRemoteObject implements IServer {
 	public void createDatabase() {
 		dao.createDatabase();
 	}
-	public boolean setComment(Comment comment)throws RemoteException  {
-		return dao.storeComment(comment);
+	public boolean setComment(String text, MovieDTO movie, UserDTO userDTO)throws RemoteException  {
+		return dao.storeComment(text, movie, userDTO);
 	}
-	public boolean addRateToMovie(Movie movie, String newRate) throws RemoteException{
+	public boolean addRateToMovie(MovieDTO movie, String newRate) throws RemoteException{
 		return dao.addRateToMovie(movie, newRate);
 	}
 	public UserDTO retrieveUser(String name) throws RemoteException  {

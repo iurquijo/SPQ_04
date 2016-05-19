@@ -17,6 +17,9 @@ public class Comment implements Serializable {
 	User user = null;
 	Movie movie = null;
 
+	public Comment(){
+	}
+
 	public Comment(String text, User user, Movie movie) {
 		super();
 		this.text = text;
