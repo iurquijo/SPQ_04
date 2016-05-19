@@ -51,11 +51,11 @@ import org.junit.Test;
  * Remoteness
  */
 @SuppressWarnings("deprecation")
-public class MovieAdvisorTest {
+public class MovieTest {
 	// Properties are hard-coded because we want the test to be executed without
 	// external interaction
 
-	private static String cwd = MovieAdvisorTest.class.getProtectionDomain().getCodeSource().getLocation()
+	private static String cwd = MovieTest.class.getProtectionDomain().getCodeSource().getLocation()
 			.getFile();
 	private static Thread rmiRegistryThread = null;
 	private static Thread rmiServerThread = null;
@@ -66,7 +66,7 @@ public class MovieAdvisorTest {
 	MovieDTO r;
 
 	public static junit.framework.Test suite() {
-		return new JUnit4TestAdapter(MovieAdvisorTest.class);
+		return new JUnit4TestAdapter(MovieTest.class);
 	}
 
 	@BeforeClass
