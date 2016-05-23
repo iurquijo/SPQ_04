@@ -5,7 +5,7 @@ import java.rmi.RMISecurityManager;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 import com.moviemanager.client.GraficalInterfaces.*;
-import com.moviemanager.server.DAO.MovieAdvisorDAO;
+import com.moviemanager.server.DAO.MovieDAO;
 import com.moviemanager.server.DTO.MovieDTO;
 import com.moviemanager.server.DTO.UserDTO;
 
@@ -25,7 +25,7 @@ public class Server extends UnicastRemoteObject implements IServer {
 	}
 
 	private static final long serialVersionUID = 1L;
-	private MovieAdvisorDAO dao = new MovieAdvisorDAO();
+	private MovieDAO dao = new MovieDAO();
 
 	
 	public List<MovieDTO> getMovieByName(String text) throws RemoteException {

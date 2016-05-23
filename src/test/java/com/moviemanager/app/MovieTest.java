@@ -5,9 +5,9 @@ package com.moviemanager.app;
 
 import junit.framework.JUnit4TestAdapter;
 //import com.moviemanager.client.*;
-import com.moviemanager.client.GraficalInterfaces.Delegate_Login;
-import com.moviemanager.client.GraficalInterfaces.Delegate_Main;
-import com.moviemanager.client.GraficalInterfaces.Delegate_Register;
+import com.moviemanager.client.GraficalInterfaces.FLogin;
+import com.moviemanager.client.GraficalInterfaces.FMain;
+import com.moviemanager.client.GraficalInterfaces.FRegister;
 import com.moviemanager.client.GraficalInterfaces.Login;
 import com.moviemanager.client.GraficalInterfaces.Main;
 import com.moviemanager.client.GraficalInterfaces.MovieWindow;
@@ -430,9 +430,9 @@ public class MovieTest {
 		new Main();
 		new Register();
 		new MovieWindow();
-		Delegate_Login dlw=new Delegate_Login("127.0.0.1", "1099", "MovieAdvisor");
-		Delegate_Register dr = new Delegate_Register("127.0.0.1", "1099", "MovieAdvisor");
-		new Delegate_Main("127.0.0.1", "1099", "MovieAdvisor", new UserDTO(m.getNick(), m.getPassword()));
+		FLogin dlw=new FLogin("127.0.0.1", "1099", "MovieAdvisor");
+		FRegister dr = new FRegister("127.0.0.1", "1099", "MovieAdvisor");
+		new FMain("127.0.0.1", "1099", "MovieAdvisor", new UserDTO(m.getNick(), m.getPassword()));
 		
 		//dlw.getData();
 

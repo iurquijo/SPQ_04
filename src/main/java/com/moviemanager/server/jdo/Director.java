@@ -31,9 +31,7 @@ public class Director implements Serializable{
 		super();
 		this.name = name;
 		this.surname = surname;
-		this.moviesDirector = moviesDirector;
-		
-		
+		this.moviesDirector = moviesDirector;	
 	}
 
 	public String getName() {

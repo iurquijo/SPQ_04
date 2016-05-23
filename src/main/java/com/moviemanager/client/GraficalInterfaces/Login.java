@@ -71,11 +71,12 @@ public class Login extends JFrame{
 		setVisible(true);
 	}
 	
+	protected void register() {
+		
+	}
+
 	protected void login(){
 		 
 	}
 	
-	protected void register() {
-		
-	}
 }
