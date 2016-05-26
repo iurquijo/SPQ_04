@@ -9,8 +9,8 @@ import javax.jdo.annotations.Persistent;
 import javax.jdo.annotations.PrimaryKey;
 
 import com.moviemanager.server.jdo.Actor;
-import com.moviemanager.server.jdo.Director;
-import com.moviemanager.server.jdo.Movie;
+import com.moviemanager.server.jdo.Drector;
+import com.moviemanager.server.jdo.Mov;
 import com.moviemanager.server.jdo.Comment;
 
 public class MovieDTO implements Serializable{
@@ -24,7 +24,7 @@ public class MovieDTO implements Serializable{
 	String rate = null;
 	String numRates = null;
 	String description=null;
-	Director director=null;
+	Drector director=null;
 
 	@Persistent(mappedBy = "member", dependentElement = "true")
 	@Join
@@ -41,7 +41,7 @@ public class MovieDTO implements Serializable{
 		this.director=null;
 		
 	}
-	public MovieDTO (Movie movie) {
+	public MovieDTO (Mov movie) {
 		super();
 		this.nameM = movie.getNameM();
 		this.rate = movie.getRate();
@@ -52,7 +52,7 @@ public class MovieDTO implements Serializable{
 		this.actorsM = actorsM;
 	}
 	public MovieDTO (String nameM, String rate, String numRates,
-			String description, Director director, List<Comment> commentsM,List<Actor> actorsM) {
+			String description, Drector director, List<Comment> commentsM,List<Actor> actorsM) {
 		super();
 		this.nameM = nameM;
 		this.rate = rate;
@@ -96,11 +96,11 @@ public class MovieDTO implements Serializable{
 		this.description = description;
 	}
 
-	public Director getDirector() {
+	public Drector getDirector() {
 		return director;
 	}
 
-	public void setDirector(Director director) {
+	public void setDirector(Drector director) {
 		this.director= director;
 	}
 

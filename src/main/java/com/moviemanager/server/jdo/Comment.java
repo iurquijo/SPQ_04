@@ -15,12 +15,12 @@ public class Comment implements Serializable {
 	@PrimaryKey
 	String text = null;
 	User user = null;
-	Movie movie = null;
+	Mov movie = null;
 
 	public Comment(){
 	}
 
-	public Comment(String text, User user, Movie movie) {
+	public Comment(String text, User user, Mov movie) {
 		super();
 		this.text = text;
 		this.movie = movie;
@@ -40,7 +40,7 @@ public class Comment implements Serializable {
 		return null;
 	}
 	
-	public Movie getMovie(){
+	public Mov getMovie(){
 		return this.movie;
 	}
 

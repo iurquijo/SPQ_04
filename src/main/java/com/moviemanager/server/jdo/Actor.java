@@ -17,16 +17,16 @@ public class Actor implements Serializable {
 	String name;
 	String surname;
 	
-	@Persistent(mappedBy = "director", dependentElement = "true")
-	@Join
-	List<Movie> moviesActor = new ArrayList<Movie>();
+	/*@Persistent(mappedBy = "director", dependentElement = "true")
+	@Join*/
+	List<Mov> moviesActor = new ArrayList<Mov>();
 
 	public Actor() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 	
-	public Actor(String name, String surname, List<Movie> moviesActor) {
+	public Actor(String name, String surname, List<Mov> moviesActor) {
 		super();
 		this.name = name;
 		this.surname = surname;

@@ -1,9 +1,9 @@
+/Users/serhatsahin/Desktop/SPQ_04-master/src/main/java/com/moviemanager/server/jdo/Drector.java
 /Users/serhatsahin/Desktop/SPQ_04-master/src/main/java/com/moviemanager/server/DTO/MovieDTO.java
 /Users/serhatsahin/Desktop/SPQ_04-master/src/main/java/com/moviemanager/server/Server.java
 /Users/serhatsahin/Desktop/SPQ_04-master/src/main/java/com/moviemanager/server/DAO/UserDAO.java
 /Users/serhatsahin/Desktop/SPQ_04-master/src/main/java/com/moviemanager/client/GraficalInterfaces/Client.java
 /Users/serhatsahin/Desktop/SPQ_04-master/src/main/java/com/moviemanager/client/GraficalInterfaces/FMovie.java
-/Users/serhatsahin/Desktop/SPQ_04-master/src/main/java/com/moviemanager/server/jdo/PlayList.java
 /Users/serhatsahin/Desktop/SPQ_04-master/src/main/java/com/moviemanager/client/GraficalInterfaces/Register.java
 /Users/serhatsahin/Desktop/SPQ_04-master/src/main/java/com/moviemanager/server/DTO/UserDTO.java
 /Users/serhatsahin/Desktop/SPQ_04-master/src/main/java/com/moviemanager/server/CreateDB.java
@@ -12,10 +12,10 @@
 /Users/serhatsahin/Desktop/SPQ_04-master/src/main/java/com/moviemanager/client/GraficalInterfaces/Login.java
 /Users/serhatsahin/Desktop/SPQ_04-master/src/main/java/com/moviemanager/server/DAO/IUserDAO.java
 /Users/serhatsahin/Desktop/SPQ_04-master/src/main/java/com/moviemanager/server/jdo/Comment.java
-/Users/serhatsahin/Desktop/SPQ_04-master/src/main/java/com/moviemanager/server/jdo/Movie.java
-/Users/serhatsahin/Desktop/SPQ_04-master/src/main/java/com/moviemanager/server/jdo/Director.java
 /Users/serhatsahin/Desktop/SPQ_04-master/src/main/java/com/moviemanager/client/GraficalInterfaces/FMain.java
 /Users/serhatsahin/Desktop/SPQ_04-master/src/main/java/com/moviemanager/client/GraficalInterfaces/MovieWindow.java
+/Users/serhatsahin/Desktop/SPQ_04-master/src/main/java/com/moviemanager/server/jdo/Mov.java
+/Users/serhatsahin/Desktop/SPQ_04-master/src/main/java/com/moviemanager/server/jdo/PlayLst.java
 /Users/serhatsahin/Desktop/SPQ_04-master/src/main/java/com/moviemanager/client/GraficalInterfaces/FRegister.java
 /Users/serhatsahin/Desktop/SPQ_04-master/src/main/java/com/moviemanager/server/IServer.java
 /Users/serhatsahin/Desktop/SPQ_04-master/src/main/java/com/moviemanager/client/GraficalInterfaces/Main.java

@@ -21,7 +21,7 @@ public class FMovie extends MovieWindow{
 	String IP,port,serverName;
 	RMIServiceLocator rmi;
 	MovieDTO movieDTO;
-	Movie movie;
+	Mov movie;
 	UserDTO userDTO;
 	User user;
 	boolean rate = false;
@@ -29,7 +29,7 @@ public class FMovie extends MovieWindow{
 	public FMovie(MovieDTO movieDTO, String IP, String port, String serverName) {
 		this.movieDTO = movieDTO;
 		this.user = user;
-		this.movie = new Movie(movieDTO.getNameM(),
+		this.movie = new Mov(movieDTO.getNameM(),
 				movieDTO.getRate(),
 				movieDTO.getNumRates(),
 				movieDTO.getDescription(),

@@ -33,9 +33,9 @@ public class MovieDAO {
 			//Start the transaction
 			tx.begin();
 
-			Extent<Movie> extent = pm.getExtent(Movie.class, true);
+			Extent<Mov> extent = pm.getExtent(Mov.class, true);
 
-			for (Movie movie : extent) {
+			for (Mov movie : extent) {
 				if(movie.getNameM().equals(text))
 					r.add(new MovieDTO(movie.getNameM(),
 							movie.getRate(),
@@ -75,9 +75,9 @@ public class MovieDAO {
 			//Start the transaction
 			tx.begin();
 
-			Extent<Movie> extent = pm.getExtent(Movie.class, true);
+			Extent<Mov> extent = pm.getExtent(Mov.class, true);
 
-			for (Movie movie : extent) {
+			for (Mov movie : extent) {
 				if(movie.getNameM().equals(text))
 					r.add(new MovieDTO(movie.getNameM(),
 							movie.getRate(),
@@ -118,9 +118,9 @@ public class MovieDAO {
 			//Start the transaction
 			tx.begin();
 
-			Extent<Movie> extent = pm.getExtent(Movie.class, true);
+			Extent<Mov> extent = pm.getExtent(Mov.class, true);
 
-			for (Movie movie : extent) {
+			for (Mov movie : extent) {
 				if(movie.getNameM().equals(text))
 					r.add(new MovieDTO(movie.getNameM(),
 							movie.getRate(),
@@ -153,14 +153,14 @@ public class MovieDAO {
 		try {
 			System.out.println("- Store objects in the DB");
 			
-			Movie movie1 = new Movie("Shark", "9", "0", "Shark", new Director(),new ArrayList<Comment>(),new ArrayList<Actor>());
-			Movie movie2 = new Movie("Titanic", "9", "0", "Drama", new Director(),new ArrayList<Comment>(),new ArrayList<Actor>());
+			Mov movie1 = new Mov("Shark", "9", "0", "Shark", new Drector(),new ArrayList<Comment>(),new ArrayList<Actor>());
+			Mov movie2 = new Mov("Titanic", "9", "0", "Drama", new Drector(),new ArrayList<Comment>(),new ArrayList<Actor>());
 			
-			User user1 = new User("asd@asd","aitor","aitor",new ArrayList<Comment>(), new ArrayList<PlayList>());
-			User user2 = new User("asd@asd","inigo","inigo",new ArrayList<Comment>(), new ArrayList<PlayList>());
-			User user3 = new User("asd@asd","serhat","serhat",new ArrayList<Comment>(), new ArrayList<PlayList>());
-			User user4 = new User("asd@asd","george","george",new ArrayList<Comment>(), new ArrayList<PlayList>());
-			User user5 = new User("asd@asd","sergio","sergio",new ArrayList<Comment>(), new ArrayList<PlayList>());
+			User user1 = new User("asd@asd","aitor","aitor",new ArrayList<Comment>(), new ArrayList<PlayLst>());
+			User user2 = new User("asd@asd","inigo","inigo",new ArrayList<Comment>(), new ArrayList<PlayLst>());
+			User user3 = new User("asd@asd","serhat","serhat",new ArrayList<Comment>(), new ArrayList<PlayLst>());
+			User user4 = new User("asd@asd","george","george",new ArrayList<Comment>(), new ArrayList<PlayLst>());
+			User user5 = new User("asd@asd","sergio","sergio",new ArrayList<Comment>(), new ArrayList<PlayLst>());
 			
 			Comment comment1 = new Comment("Awesome movie", user1, movie1);;
 			Comment comment2 = new Comment("Wow", user3, movie1);
@@ -214,7 +214,7 @@ public class MovieDAO {
 	public boolean addRateToMovie(MovieDTO movie, String newRate) {
 
 			MovieDTO m = movie;
-			Movie movieTr = null;
+			Mov movieTr = null;
 			PersistenceManager pm = pmf.getPersistenceManager();
 			Transaction tx = pm.currentTransaction();
 
@@ -222,8 +222,8 @@ public class MovieDAO {
 				tx.begin();
 				System.out.println("   * Updating a rate: " + newRate);
 
-				Extent<Movie> extent = pm.getExtent(Movie.class, true);
-				for (Movie movieT : extent) {
+				Extent<Mov> extent = pm.getExtent(Mov.class, true);
+				for (Mov movieT : extent) {
 					if(movieT.getNameM().toString().equals(m.getNameM().toString())){
 						//					pm.deletePersistent(restaurantT);
 						movieTr = movieT;
@@ -291,7 +291,7 @@ public class MovieDAO {
 	public boolean addUser(String nick, String password, String mail){
 		
 		List<Comment> commentsUser = new ArrayList<Comment>();
-		List<PlayList> playListsUser = new ArrayList<PlayList>();
+		List<PlayLst> playListsUser = new ArrayList<PlayLst>();
 		User user = new User(mail, nick, password, commentsUser, playListsUser);
 		PersistenceManager pm = pmf.getPersistenceManager();
 	    Transaction tx = pm.currentTransaction();
@@ -351,7 +351,7 @@ public class MovieDAO {
 	
 
 	public boolean storeComment(String text, MovieDTO movie, UserDTO userDTO){
-		Movie m = new Movie(movie.getNameM(),
+		Mov m = new Mov(movie.getNameM(),
 				movie.getRate(),
 				movie.getNumRates(),
 				movie.getDescription(),
@@ -373,8 +373,8 @@ public class MovieDAO {
 					u = user;}
 			}
 			System.out.println("INSERTANDO EN COMENTARIO EN LA BASE DE DATOS: "+ text);
-			Extent<Movie> extent2 = pm.getExtent(Movie.class, true);
-			for (Movie movieT : extent2) {
+			Extent<Mov> extent2 = pm.getExtent(Mov.class, true);
+			for (Mov movieT : extent2) {
 				if(movie.getDescription().equals(movie.getNameM())){
 					m = movieT;
 					System.out.println("Movie name: "+m.getNameM());

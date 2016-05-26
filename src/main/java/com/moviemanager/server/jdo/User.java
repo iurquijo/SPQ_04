@@ -21,17 +21,17 @@ public class User{
 	String nick = "aitor";
 	String password = "aitor";
 
-	@Persistent(mappedBy = "user", dependentElement = "true")
-	@Join
+	/*@Persistent(mappedBy = "user", dependentElement = "true")
+	@Join*/
 	List<Comment> commentsUser = new ArrayList<Comment>();
 	
-	@Persistent(mappedBy = "user", dependentElement = "true")
-	@Join
-	List<PlayList> playListsUser = new ArrayList<PlayList>();
+	/*@Persistent(mappedBy = "user", dependentElement = "true")
+	@Join*/
+	List<PlayLst> playListsUser = new ArrayList<PlayLst>();
 
 	public User(){}
 	
-	public User(String mail, String nick, String password, List<Comment> commentsUser, List<PlayList> playListsUser) {
+	public User(String mail, String nick, String password, List<Comment> commentsUser, List<PlayLst> playListsUser) {
 		super();
 		this.mail = mail;
 		this.nick = nick;
@@ -73,11 +73,11 @@ public class User{
 		this.commentsUser = commentsUser;
 	}
 	
-	public List<PlayList> getPlayListUser() {
+	public List<PlayLst> getPlayListUser() {
 		return playListsUser;
 	}
 
-	public void setCommentsM(List<PlayList> playListsUser) {
+	public void setCommentsM(List<PlayLst> playListsUser) {
 		this.playListsUser = playListsUser;
 	}
 
