@@ -4,7 +4,7 @@
     <package name="com.moviemanager.server.jdo">
         <class name="User" identity-type="application">
 			<primary-key name="nick"/>
-			<!--<field name="nick" primary-key="true">-->
+			<!--<field name="nick">-->
 			<field name="nick">
                 <column length="32" jdbc-type="VARCHAR"/>
             </field>

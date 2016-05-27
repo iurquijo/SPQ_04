@@ -171,7 +171,7 @@ public class MovieWindow extends JFrame {
 		comboBoxRate.setModel(new DefaultComboBoxModel<String>(ratesTriki));
 		getContentPane().add(comboBoxRate);
 
-		JButton btn_Logout = new JButton("Logout");
+		JButton btn_Logout = new JButton("Close");
 		btn_Logout.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				logout();

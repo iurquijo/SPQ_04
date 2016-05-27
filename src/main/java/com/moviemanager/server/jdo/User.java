@@ -8,6 +8,7 @@ import javax.jdo.annotations.Join;
 import javax.jdo.annotations.PersistenceCapable;
 import javax.jdo.annotations.Persistent;
 import javax.jdo.annotations.PrimaryKey;
+import javax.jdo.annotations.IdGeneratorStrategy;
 
 @PersistenceCapable
 public class User{
@@ -18,16 +19,16 @@ public class User{
 	private static final long serialVersionUID = 1L;
 	String mail = "";
 	@PrimaryKey
-	String nick = "aitor";
-	String password = "aitor";
+	String nick;
+	String password;
 
-	/*@Persistent(mappedBy = "user", dependentElement = "true")
-	@Join*/
+	@Persistent(mappedBy = "user", dependentElement = "true")
+	@Join
 	List<Comment> commentsUser = new ArrayList<Comment>();
 	
-	/*@Persistent(mappedBy = "user", dependentElement = "true")
-	@Join*/
-	List<PlayLst> playListsUser = new ArrayList<PlayLst>();
+	@Persistent(mappedBy = "user", dependentElement = "true")
+	@Join
+	List<PlayLst> playLstUser = new ArrayList<PlayLst>();
 
 	public User(){}
 	
@@ -37,7 +38,7 @@ public class User{
 		this.nick = nick;
 		this.password = password;
 		this.commentsUser = commentsUser;
-		this.playListsUser = playListsUser;
+		this.playLstUser = playListsUser;
 	}
 
 	public String getNick() {
@@ -74,11 +75,11 @@ public class User{
 	}
 	
 	public List<PlayLst> getPlayListUser() {
-		return playListsUser;
+		return playLstUser;
 	}
 
 	public void setCommentsM(List<PlayLst> playListsUser) {
-		this.playListsUser = playListsUser;
+		this.playLstUser = playListsUser;
 	}
 
 }

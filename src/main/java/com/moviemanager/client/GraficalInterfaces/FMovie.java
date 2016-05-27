@@ -73,7 +73,7 @@ public class FMovie extends MovieWindow{
 	@Override
 	protected void logout() {
 		this.dispose();
-		new FMain(IP, port, serverName, userDTO);
+		
 	}
 	
 	@Override

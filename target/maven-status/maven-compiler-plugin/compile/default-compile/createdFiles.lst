@@ -7,10 +7,13 @@ com/moviemanager/client/GraficalInterfaces/Login.class
 com/moviemanager/client/GraficalInterfaces/Register$2.class
 com/moviemanager/server/jdo/Actor.class
 com/moviemanager/client/GraficalInterfaces/MovieWindow$2.class
+com/moviemanager/client/GraficalInterfaces/Main$4.class
 com/moviemanager/client/GraficalInterfaces/MovieWindow.class
 com/moviemanager/server/jdo/PlayLst.class
+com/moviemanager/client/GraficalInterfaces/Main$4$1.class
 com/moviemanager/server/jdo/User.class
 com/moviemanager/client/GraficalInterfaces/Client.class
+com/moviemanager/server/loadDatabase.class
 com/moviemanager/client/GraficalInterfaces/FLogin.class
 com/moviemanager/server/jdo/Mov.class
 com/moviemanager/client/GraficalInterfaces/MovieWindow$3.class
@@ -25,7 +28,6 @@ com/moviemanager/client/GraficalInterfaces/Main$3$1.class
 com/moviemanager/client/GraficalInterfaces/Register.class
 com/moviemanager/client/GraficalInterfaces/remote/RMIServiceLocator.class
 com/moviemanager/client/GraficalInterfaces/FMain.class
-com/moviemanager/server/CreateDB.class
 com/moviemanager/server/Main.class
 com/moviemanager/server/Server.class
 com/moviemanager/client/GraficalInterfaces/Main$1.class

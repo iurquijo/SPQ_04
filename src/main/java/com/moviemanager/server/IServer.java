@@ -14,6 +14,7 @@ import com.moviemanager.server.jdo.*;
 public interface IServer extends Remote {
 	
 	public List<MovieDTO> getMovieByName(String text) throws RemoteException;
+	public List<MovieDTO> getMovieAll() throws RemoteException;
 	public List<MovieDTO> getMovieByRate(String text)throws RemoteException ;
 	public List<MovieDTO> getMovieByNameAndRate(String text, String text1)throws RemoteException;
 	

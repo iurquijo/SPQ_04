@@ -37,25 +37,15 @@ public class FMain extends Main{
 		UserNameLabel.setText(userDTO.getNick());
 		list = new ArrayList<MovieDTO>();
 	}
-	private void getComboBoxes(){
-		name = false;
-		category = false;
-		rate = false;
-		place = false;
-		if(!comboBoxCategory.getSelectedItem().equals("Category"))
-			category = true;
-
-		if(!comboBoxName.getSelectedItem().equals("Name"))
-			name = true;
-
-		if(!comboBoxPlace.getSelectedItem().equals("Place"))
-			place = true;
-
-		if(!comboBoxRate.getSelectedItem().equals("Rate"))
-			rate = true;
-	}
+	
 	private void find(){
-		getComboBoxes();
+		try	{
+		list = rmi.getService().getMovieByName(nameOfMov.getText());
+		}
+		catch (RemoteException e) {
+			e.printStackTrace();
+		}
+		/*
 		if(!category && name && !place && !rate)
 			try {
 				System.out.println("NAME");
@@ -63,24 +53,7 @@ public class FMain extends Main{
 			} catch (RemoteException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-			}
-		if(!category && !name && !place && rate)
-			try {
-				System.out.println("RATE");
-				list = rmi.getService().getMovieByRate(comboBoxRate.getSelectedItem().toString());
-			} catch (RemoteException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		if(!category && name && !place && rate)
-			try {
-				System.out.println("NAME AND RATE");
-				list = rmi.getService().getMovieByNameAndRate(comboBoxName.getSelectedItem().toString()
-						, comboBoxRate.getSelectedItem().toString());
-			} catch (RemoteException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+		*/
 	}
 	
 	private void addToTable () {
@@ -94,6 +67,23 @@ public class FMain extends Main{
 		}
 		scrollPane.repaint();
 	
+	}
+
+	private void addAllToTable() {
+		deleteFromTable();
+		try{
+			list = rmi.getService().getMovieAll();
+		}
+		catch(RemoteException e){
+			e.printStackTrace();
+		}
+		for (MovieDTO mov : list) {
+		    table.setValueAt(mov.getNameM(), contadorFilas, 0);
+		    table.setValueAt(mov.getDescription(), contadorFilas, 1);
+		    table.setValueAt(mov.getRate(), contadorFilas, 2);
+		    contadorFilas++;
+		}
+		scrollPane.repaint();
 	}
 	
 	private void deleteFromTable() {
@@ -116,11 +106,15 @@ public class FMain extends Main{
 		addToTable();
 		this.repaint();
 	}
+
+	protected void showAllMovies(){
+		addAllToTable();
+		this.repaint();
+	}
 	
 	@Override
 	protected void openMovie(){
 		new FMovie(list.get(table.getSelectedRow()), IP,port,serverName);
-		this.dispose();
 	}
 	
 }

@@ -3,7 +3,7 @@ package com.moviemanager.server.jdo;
 import java.io.Serializable;
 import javax.jdo.annotations.PersistenceCapable;
 import javax.jdo.annotations.PrimaryKey;
-
+import javax.jdo.annotations.IdGeneratorStrategy;
 @PersistenceCapable
 
 public class Comment implements Serializable {
@@ -12,6 +12,7 @@ public class Comment implements Serializable {
 	 * User implements Serializable to be transferred to the RMI client
 	 */
 	private static final long serialVersionUID = 1L;
+	//@PrimaryKey
 	@PrimaryKey
 	String text = null;
 	User user = null;

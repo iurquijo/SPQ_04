@@ -106,6 +106,48 @@ public class MovieDAO {
 		}
 
 	}
+
+	@SuppressWarnings("finally")
+	public List<MovieDTO> getMovieAll() {
+		List<MovieDTO> r = new ArrayList<MovieDTO>();
+		try{
+			System.out.println("INFO: Getting the Movie from the db: ");
+			pm = pmf.getPersistenceManager();
+			//Obtain the current transaction
+			tx = pm.currentTransaction();		
+			//Start the transaction
+			tx.begin();
+
+			Extent<Mov> extent = pm.getExtent(Mov.class, true);
+
+			for (Mov movie : extent) {
+					r.add(new MovieDTO(movie.getNameM(),
+							movie.getRate(),
+							movie.getNumRates(),
+							movie.getDescription(),
+							movie.getDirector(),
+							new ArrayList<Comment>(),
+							new ArrayList<Actor>()));			
+			}
+			System.out.println(r);
+
+			tx.commit();
+			System.out.println("Movie retrieves successfully");
+		}catch(Exception e){
+			e.printStackTrace();
+			System.out.println("WARN: Exception when retrieving from database");
+		}finally{
+			if (tx != null && tx.isActive()) {
+				tx.rollback();
+			}
+
+			if (pm != null && !pm.isClosed()) {
+				pm.close();
+			}
+			return r;
+		}
+
+	}
 	
 	@SuppressWarnings("finally")
 	public List<MovieDTO> getMovieByNameAndRate(String text, String text1) {
@@ -151,10 +193,10 @@ public class MovieDAO {
 	
 	public void createDatabase(){
 		try {
-			System.out.println("- Store objects in the DB");
 			
-			Mov movie1 = new Mov("Shark", "9", "0", "Shark", new Drector(),new ArrayList<Comment>(),new ArrayList<Actor>());
-			Mov movie2 = new Mov("Titanic", "9", "0", "Drama", new Drector(),new ArrayList<Comment>(),new ArrayList<Actor>());
+			Mov movie1 = new Mov("Shark", "0", "0", "Shark-Description", new Drector(),new ArrayList<Comment>(),new ArrayList<Actor>());
+			Mov movie2 = new Mov("Titanic", "0", "0", "Drama-Description", new Drector("Director", "DSurname", new ArrayList<Mov>()), new ArrayList<Comment>(),new ArrayList<Actor>());
+			Mov movie3 = new Mov("SPQ-4", "10", "0", "AWESOME!", new Drector("YOU","ME", new ArrayList<Mov>()),new ArrayList<Comment>(),new ArrayList<Actor>());
 			
 			User user1 = new User("asd@asd","aitor","aitor",new ArrayList<Comment>(), new ArrayList<PlayLst>());
 			User user2 = new User("asd@asd","inigo","inigo",new ArrayList<Comment>(), new ArrayList<PlayLst>());
@@ -162,7 +204,7 @@ public class MovieDAO {
 			User user4 = new User("asd@asd","george","george",new ArrayList<Comment>(), new ArrayList<PlayLst>());
 			User user5 = new User("asd@asd","sergio","sergio",new ArrayList<Comment>(), new ArrayList<PlayLst>());
 			
-			Comment comment1 = new Comment("Awesome movie", user1, movie1);;
+			Comment comment1 = new Comment("Awesome movie", user1, movie3);;
 			Comment comment2 = new Comment("Wow", user3, movie1);
 			Comment comment3 = new Comment("...", user3, movie1);
 			Comment comment4 = new Comment("Nice", user4, movie2);
@@ -175,10 +217,9 @@ public class MovieDAO {
 			//Start the transaction
 			tx.begin();
 
-			System.out.println("Storing movies: ");
-
 			pm.makePersistent(movie1);
 			pm.makePersistent(movie2);
+			pm.makePersistent(movie3);
 			
 			pm.makePersistent(user1);
 			pm.makePersistent(user2);
@@ -232,7 +273,7 @@ public class MovieDAO {
 				movieTr.setRate((Integer.parseInt(movieTr.getRate())*Integer.parseInt(movieTr.getNumRates()) 
 						+ (Integer.parseInt(newRate))) / (Integer.parseInt(movieTr.getNumRates()) + 1) +"");
 				movieTr.setNumRates(Integer.parseInt(movieTr.getNumRates())+1+"");
-				System.out.println("METIENDO EL RESTAURANTE OTRA VEZ EN LA BASE DE DATOS: "+movieTr.getNameM());
+				
 				pm.makePersistent(movieTr);
 				tx.commit();
 			} catch (Exception ex) {
@@ -369,10 +410,10 @@ public class MovieDAO {
 			for (User user : extent) {
 				System.out.println(user.getNick());
 				if(user.getNick().equals(userDTO.getNick())){
-					System.out.println("ESTA DENTRO DEL IF EN EL STORECOMMENT");
+					
 					u = user;}
 			}
-			System.out.println("INSERTANDO EN COMENTARIO EN LA BASE DE DATOS: "+ text);
+			
 			Extent<Mov> extent2 = pm.getExtent(Mov.class, true);
 			for (Mov movieT : extent2) {
 				if(movie.getDescription().equals(movie.getNameM())){

@@ -29,6 +29,7 @@ import javax.swing.JTable;
 import javax.swing.SwingUtilities;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.JScrollPane;
+import javax.swing.JTextField;
 
 public class Main extends JFrame {
 	/**
@@ -37,27 +38,17 @@ public class Main extends JFrame {
 	private static final long serialVersionUID = 1L;
 
 	protected JTable table;
-	protected String[] names = {"Telepizza", "Deustoarrak", "Foster","MejicanoTere", "Smoking yewepe"};
-	protected String[] places = {"Bilbao", "Gorliz ", "Getxo" };
-	protected String[] categorys = {"Mexican", "Italian", "American", "Asian", "Basque" };
-	protected String[] rates = {"1", "2", "3", "4", "5" };
 	protected JLabel UserNameLabel;
 	protected JButton logoutButton;
 	protected JButton findButton;
 	protected JButton openMovieButton;
+	protected JButton showAll;
 	protected Panel panel;
-	protected JComboBox<String> comboBoxName;
-	protected JComboBox<String> comboBoxCategory;
-	protected JComboBox<String> comboBoxPlace;
-	protected JComboBox<String> comboBoxRate;
+
 	protected JScrollPane scrollPane;
 	protected JLabel logoLabel;
 	
-
-	protected String[] namesTriki = { "Name","Telepizza", "Deustoarrak", "Foster","MejicanoTere", "Smoking yewepe" };
-	protected String[] placesTriki = { "Place","Bilbao", "Gorliz ", "Getxo" };
-	protected String[] categorysTriki = { "Category","Mexican", "Italian", "American", "Asian" };
-	protected String[] ratesTriki = { "Rate","1", "2", "3", "4", "5" };
+	protected JTextField nameOfMov;
 
 	public Main() {
 		
@@ -91,6 +82,13 @@ public class Main extends JFrame {
 				openMovie();
 			}
 		});
+
+		nameOfMov = new JTextField();
+		nameOfMov.repaint();
+		nameOfMov.setBounds(60, 97, 90, 20);
+		panel.add(nameOfMov);
+
+		/*
 		comboBoxName = new JComboBox<String>();
 		comboBoxName.setBounds(93, 88, 120, 20);
 		comboBoxName.setModel(new DefaultComboBoxModel<String>(namesTriki));
@@ -110,8 +108,8 @@ public class Main extends JFrame {
 		comboBoxRate.setBounds(278, 113, 96, 20);
 		comboBoxRate.setModel(new DefaultComboBoxModel<String>(ratesTriki));
 		panel.add(comboBoxRate);
+*/
 		table = new JTable(10,3);
-
 		scrollPane = new JScrollPane(table);
 		table.setFillsViewportHeight(true);
 		scrollPane.setBounds(60, 168, 477, 303);
@@ -119,8 +117,8 @@ public class Main extends JFrame {
 		panel.add(scrollPane);
 
 
-		findButton = new JButton("Find");
-		findButton.setBounds(434, 97, 89, 23);
+		findButton = new JButton("Search");
+		findButton.setBounds(200, 97, 90, 20);
 		panel.add(findButton);
 		findButton.addActionListener(new ActionListener() {
 			
@@ -130,6 +128,24 @@ public class Main extends JFrame {
 					public void run() {
 						// TODO Auto-generated method stub
 						execute();
+					}
+				});
+			}
+		});
+
+
+
+		showAll = new JButton("Show All");
+		showAll.setBounds(60, 130, 90, 20);
+		panel.add(showAll);
+		showAll.addActionListener(new ActionListener() {
+			
+			public void actionPerformed(ActionEvent e) {
+				SwingUtilities.invokeLater(new Runnable() {
+					
+					public void run() {
+						// TODO Auto-generated method stub
+						showAllMovies();
 					}
 				});
 			}
@@ -149,5 +165,9 @@ public class Main extends JFrame {
 	
 	protected void openMovie() {
 		
+	}
+
+	protected void showAllMovies(){
+
 	}
 }

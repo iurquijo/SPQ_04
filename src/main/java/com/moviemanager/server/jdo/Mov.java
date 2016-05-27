@@ -8,7 +8,7 @@ import javax.jdo.annotations.Join;
 import javax.jdo.annotations.PersistenceCapable;
 import javax.jdo.annotations.Persistent;
 import javax.jdo.annotations.PrimaryKey;
-
+import javax.jdo.annotations.IdGeneratorStrategy;
 @PersistenceCapable
 
 public class Mov{
@@ -17,6 +17,7 @@ public class Mov{
 	 * User implements Serializable to be transferred to the RMI client
 	 */
 
+	//@PrimaryKey
 	@PrimaryKey
 	String nameM = null;
 	String rate = null;
@@ -24,12 +25,11 @@ public class Mov{
 	String description = null;
 	Drector director=null;
 	
-	/*@Persistent(mappedBy = "user", dependentElement = "true")
-	@Join*/
+	@Persistent(mappedBy = "user", dependentElement = "true")
+	@Join
 	List<Comment> commentsM = new ArrayList<Comment>();
 	
-	/*@Persistent(mappedBy = "name", dependentElement = "true")
-	@Join*/
+	@Persistent(mappedBy="moviesActor")
 	List<Actor> actorsM = new ArrayList<Actor>();
 	public Mov(){
 		this.nameM="";

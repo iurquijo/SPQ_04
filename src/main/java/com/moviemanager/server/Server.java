@@ -32,6 +32,10 @@ public class Server extends UnicastRemoteObject implements IServer {
 		return dao.getMovieByName(text);
 	}
 
+	public List<MovieDTO> getMovieAll() throws RemoteException {
+		return dao.getMovieAll();
+	}
+
 	public List<MovieDTO> getMovieByRate(String text) throws RemoteException {
 		return dao.getMovieByRate(text);
 	}

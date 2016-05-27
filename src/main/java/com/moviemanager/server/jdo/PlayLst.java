@@ -8,7 +8,7 @@ import javax.jdo.annotations.Join;
 import javax.jdo.annotations.PersistenceCapable;
 import javax.jdo.annotations.Persistent;
 import javax.jdo.annotations.PrimaryKey;
-
+import javax.jdo.annotations.IdGeneratorStrategy;
 
 import java.util.*;
 
@@ -19,7 +19,7 @@ import java.util.*;
 public class PlayLst implements Serializable {
 
 	private static final long serialVersionUID = 1L;
-	
+	@PrimaryKey
     private String name="";
     private User user;
     private ArrayList<Mov> playlistMovie = new ArrayList<Mov>();

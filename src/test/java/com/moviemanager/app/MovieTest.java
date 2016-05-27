@@ -63,7 +63,7 @@ public class MovieTest {
 	private IServer server;
 	User m;
 	List<MovieDTO> t = new ArrayList<MovieDTO>();
-	MovieDTO r;
+	MovieDTO r = new MovieDTO("Hulk", "5", "0", "heroe", new Drector(), new ArrayList<Comment>(), new ArrayList<Actor>());;
 
 	public static junit.framework.Test suite() {
 		return new JUnit4TestAdapter(MovieTest.class);
@@ -100,7 +100,7 @@ public class MovieTest {
 						"This is a test to check how mvn test executes this test without external interaction; JVM properties by program");
 				System.out.println("**************: " + cwd);
 				System.setProperty("java.rmi.server.codebase", "file:" + cwd);
-				System.setProperty("java.security.policy", "target/test-classes/security/java.policy");
+				System.setProperty("java.security.policy", "target/classes/security/java.policy");
 
 				if (System.getSecurityManager() == null) {
 					System.setSecurityManager(new RMISecurityManager());
@@ -144,7 +144,7 @@ public class MovieTest {
 
 			System.out.println("Deleting test users from persistence. Cleaningup.");
 			Query q1 = pm.newQuery(User.class);
-			long numberInstancesDeleted = q1.deletePersistentAll();
+			long numberInstancesDeleted = q1.deletePersistentAll(1);
 			System.out.println("Deleted " + numberInstancesDeleted + " user");
 
 			System.out.println("Deleting test comments from persistence. Cleaningup.");
@@ -193,7 +193,7 @@ public class MovieTest {
 	@Before
 	public void setUpClient() {
 		try {
-			System.setProperty("java.security.policy", "target/test-classes/security/java.policy");
+			System.setProperty("java.security.policy", "target/classes/security/java.policy");
 
 			if (System.getSecurityManager() == null) {
 				System.setSecurityManager(new RMISecurityManager());
@@ -350,7 +350,7 @@ public class MovieTest {
 		boolean test = false;
 		try {
 			System.out.println("Test 15 - adda user");
-			test = server.addUser("serhat", "serhat", "as@as");
+			test = server.addUser("newTestMember", "newTestMember", "as@as");
 		} catch (RemoteException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -430,9 +430,9 @@ public class MovieTest {
 		new Main();
 		new Register();
 		new MovieWindow();
-		FLogin dlw=new FLogin("127.0.0.1", "1099", "MovieAdvisor");
-		FRegister dr = new FRegister("127.0.0.1", "1099", "MovieAdvisor");
-		new FMain("127.0.0.1", "1099", "MovieAdvisor", new UserDTO(m.getNick(), m.getPassword()));
+		FLogin dlw=new FLogin("127.0.0.1", "1099", "MovieManagerServer");
+		FRegister dr = new FRegister("127.0.0.1", "1099", "MovieManagerServer");
+		new FMain("127.0.0.1", "1099", "MovieManagerServer", new UserDTO(m.getNick(), m.getPassword()));
 		
 		//dlw.getData();
 
