@@ -16,7 +16,6 @@ com/moviemanager/client/GraficalInterfaces/Client.class
 com/moviemanager/server/loadDatabase.class
 com/moviemanager/client/GraficalInterfaces/FLogin.class
 com/moviemanager/server/jdo/Mov.class
-com/moviemanager/client/GraficalInterfaces/MovieWindow$3.class
 com/moviemanager/server/DAO/IUserDAO.class
 com/moviemanager/client/GraficalInterfaces/Login$2.class
 com/moviemanager/client/GraficalInterfaces/Main$3.class

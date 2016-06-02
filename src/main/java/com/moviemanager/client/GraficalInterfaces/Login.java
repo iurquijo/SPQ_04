@@ -20,7 +20,7 @@ public class Login extends JFrame{
 	protected JPanel panel;
 	protected JButton loginButton;
 	protected JButton registerButton;
-
+	protected JLabel uname, pw;
 	public Login() {
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setSize(434,300);
@@ -50,11 +50,23 @@ public class Login extends JFrame{
 			}
 		});
 
+
+
+		JLabel uname = new JLabel();
+		uname.setText("Username:");
+		uname.setBounds(20, 82, 136, 20);
+		panel.add(uname);
+
 		textFieldUsername = new JTextField();
 		textFieldUsername.repaint();
 		textFieldUsername.setBounds(155, 82, 105, 19);
 		panel.add(textFieldUsername);
 		textFieldUsername.setColumns(10);
+
+		JLabel pw = new JLabel();
+		pw.setText("Password:");
+		pw.setBounds(20, 134, 136, 20);
+		panel.add(pw);
 
 		textFieldPassword = new JTextField();
 		textFieldPassword.repaint();

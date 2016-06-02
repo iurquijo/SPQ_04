@@ -61,7 +61,7 @@ public class MovieTest {
 	private static Thread rmiServerThread = null;
 
 	private IServer server;
-	User m;
+	User m = new User("aitore","aitore","aitore", new ArrayList<Comment>(), new ArrayList<PlayLst>());
 	List<MovieDTO> t = new ArrayList<MovieDTO>();
 	MovieDTO r = new MovieDTO("Hulk", "5", "0", "heroe", new Drector(), new ArrayList<Comment>(), new ArrayList<Actor>());;
 
@@ -142,32 +142,32 @@ public class MovieTest {
 		try {
 			tx.begin();
 
-			System.out.println("Deleting test users from persistence. Cleaningup.");
+			
 			Query q1 = pm.newQuery(User.class);
 			long numberInstancesDeleted = q1.deletePersistentAll(1);
 			System.out.println("Deleted " + numberInstancesDeleted + " user");
 
-			System.out.println("Deleting test comments from persistence. Cleaningup.");
+			
 			Query q2 = pm.newQuery(Comment.class);
 			long numberInstancesDeleted2 = q2.deletePersistentAll();
 			System.out.println("Deleted " + numberInstancesDeleted2 + " comment");
 
-			System.out.println("Deleting test movies from persistence. Cleaningup.");
+			
 			Query q3 = pm.newQuery(Mov.class);
 			long numberInstancesDeleted3 = q3.deletePersistentAll();
 			System.out.println("Deleted " + numberInstancesDeleted3 + " movie");
 
-			System.out.println("Deleting test actors from persistence. Cleaningup.");
+			
 			Query q4 = pm.newQuery(Actor.class);
 			long numberInstancesDeleted4 = q4.deletePersistentAll();
 			System.out.println("Deleted " + numberInstancesDeleted4 + " actor");
 			
-			System.out.println("Deleting test directors from persistence. Cleaningup.");
+			
 			Query q5 = pm.newQuery(Drector.class);
 			long numberInstancesDeleted5 = q5.deletePersistentAll();
 			System.out.println("Deleted " + numberInstancesDeleted5 + " director");
 			
-			System.out.println("Deleting test actors from persistence. Cleaningup.");
+			
 			Query q6 = pm.newQuery(PlayLst.class);
 			long numberInstancesDeleted6 = q6.deletePersistentAll();
 			System.out.println("Deleted " + numberInstancesDeleted6 + " playist");
@@ -305,15 +305,15 @@ public class MovieTest {
 		assertTrue(test);
 	}
 
-	@Test
+	//@Test
 	public void setCommentTest() {
 		boolean test = false;
-		MovieDTO rest = new MovieDTO("Hulk", "5", "0", "heroe", new Drector(), new ArrayList<Comment>(), new ArrayList<Actor>());
+		MovieDTO rest = new MovieDTO("Titanic", "5", "0", "heroe", new Drector(), new ArrayList<Comment>(), new ArrayList<Actor>());
 		System.out.println("------------------------------------------------" + test);
 
 		try {
 			System.out.println("Test 5 - set a comment");
-			test = server.setComment("new comment", rest, new UserDTO(m.getNick(), m.getPassword()));
+			test = server.setComment("new comment", rest, new UserDTO("aitor", m.getPassword()));
 			System.out.println("------------------------------------------------" + test);
 		} catch (Exception re) {
 			System.err.println(" # Messenger RemoteException: " + re.getMessage());
@@ -400,7 +400,7 @@ public class MovieTest {
 	public void UserDAOTest() {
 		
 		UserDAO udao= new UserDAO();
-		udao.storeUser(new User());
+		udao.storeUser(new User("123","1233","1233", new ArrayList<Comment>(), new ArrayList<PlayLst>()));
 		udao.retrieveUser("aitor");
 		udao.updateUser(m);
 		if (m.getMail() == "as@as") {
@@ -447,32 +447,32 @@ public class MovieTest {
 		try {
 			tx.begin();
 
-			System.out.println("Deleting test user from persistence. Cleaningup.");
+			
 			Query q1 = pm.newQuery(User.class);
 			long numberInstancesDeleted = q1.deletePersistentAll();
 			System.out.println("Deleted " + numberInstancesDeleted + " user");
 
-			System.out.println("Deleting test comments from persistence. Cleaningup.");
+			
 			Query q2 = pm.newQuery(Comment.class);
 			long numberInstancesDeleted2 = q2.deletePersistentAll();
 			System.out.println("Deleted " + numberInstancesDeleted2 + " comment");
 
-			System.out.println("Deleting test movies from persistence. Cleaningup.");
+			
 			Query q3 = pm.newQuery(Mov.class);
 			long numberInstancesDeleted3 = q3.deletePersistentAll();
 			System.out.println("Deleted " + numberInstancesDeleted3 + " movie");
 
-			System.out.println("Deleting test actors from persistence. Cleaningup.");
+			
 			Query q4 = pm.newQuery(Actor.class);
 			long numberInstancesDeleted4 = q4.deletePersistentAll();
 			System.out.println("Deleted " + numberInstancesDeleted4 + " actor");
 			
-			System.out.println("Deleting test directors from persistence. Cleaningup.");
+			
 			Query q5 = pm.newQuery(Drector.class);
 			long numberInstancesDeleted5 = q5.deletePersistentAll();
 			System.out.println("Deleted " + numberInstancesDeleted5 + " director");
 			
-			System.out.println("Deleting test actors from persistence. Cleaningup.");
+			
 			Query q6 = pm.newQuery(PlayLst.class);
 			long numberInstancesDeleted6 = q6.deletePersistentAll();
 			System.out.println("Deleted " + numberInstancesDeleted6 + " playist");

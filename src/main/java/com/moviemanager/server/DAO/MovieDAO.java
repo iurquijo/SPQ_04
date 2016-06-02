@@ -26,7 +26,7 @@ public class MovieDAO {
 	public List<MovieDTO> getMovieByName(String text) {
 		List<MovieDTO> r = new ArrayList<MovieDTO>();
 		try{
-			System.out.println("INFO: Getting the Movie from the db: ");
+			
 			pm = pmf.getPersistenceManager();
 			//Obtain the current transaction
 			 tx = pm.currentTransaction();		
@@ -68,7 +68,7 @@ public class MovieDAO {
 	public List<MovieDTO> getMovieByRate(String text) {
 		List<MovieDTO> r = new ArrayList<MovieDTO>();
 		try{
-			System.out.println("INFO: Getting the Movie from the db: ");
+			
 			pm = pmf.getPersistenceManager();
 			//Obtain the current transaction
 			tx = pm.currentTransaction();		
@@ -111,7 +111,7 @@ public class MovieDAO {
 	public List<MovieDTO> getMovieAll() {
 		List<MovieDTO> r = new ArrayList<MovieDTO>();
 		try{
-			System.out.println("INFO: Getting the Movie from the db: ");
+			
 			pm = pmf.getPersistenceManager();
 			//Obtain the current transaction
 			tx = pm.currentTransaction();		
@@ -153,7 +153,7 @@ public class MovieDAO {
 	public List<MovieDTO> getMovieByNameAndRate(String text, String text1) {
 		List<MovieDTO> r = new ArrayList<MovieDTO>();
 		try{
-			System.out.println("INFO: Getting the Movie from the db: ");
+			
 			pm = pmf.getPersistenceManager();
 			//Obtain the current transaction
 			tx = pm.currentTransaction();		
@@ -293,7 +293,7 @@ public class MovieDAO {
 		User u = new User();
 		UserDTO userDTO = new UserDTO();
 		try{
-			System.out.println("INFO: Getting the user from the db: ");
+			
 			pm = pmf.getPersistenceManager();
 			//Obtain the current transaction
 			tx = pm.currentTransaction();		
@@ -304,7 +304,7 @@ public class MovieDAO {
 			for (User user : extent) {
 				System.out.println(user.getNick());
 				if(user.getNick().equals(nick)){
-					System.out.println("ESTA DENTRO DEL IF");
+					
 					u = user;}
 			}
 			
@@ -359,7 +359,7 @@ public class MovieDAO {
 	public List<Comment> getAllCommentsOfMovie(MovieDTO movieDTO) {
 		List<Comment> r = new ArrayList<Comment>();
 		try{
-			System.out.println("INFO: Getting the comments from the db: ");
+			
 			pm = pmf.getPersistenceManager();
 			//Obtain the current transaction
 			tx = pm.currentTransaction();		

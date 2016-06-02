@@ -55,11 +55,6 @@ public class MovieWindow extends JFrame {
 		txtpnName.setBounds(10, 11, 50, 20);
 		panel_1.add(txtpnName);
 
-		JLabel txtpnLocation_1 = new JLabel();
-		txtpnLocation_1.setText("Location:");
-		txtpnLocation_1.setBounds(10, 35, 50, 20);
-		panel_1.add(txtpnLocation_1);
-
 		JLabel txtpnRate = new JLabel();
 		txtpnRate.setText("Rate:");
 		txtpnRate.setBounds(10, 59, 50, 20);
@@ -91,11 +86,6 @@ public class MovieWindow extends JFrame {
 		panel_1.add(textField_Name);
 		textField_Name.setColumns(10);
 
-		textField_Location = new JTextField();
-		textField_Location.setBounds(70, 35, 86, 20);
-		panel_1.add(textField_Location);
-		textField_Location.setColumns(10);
-
 		textField_Rate = new JTextField();
 		textField_Rate.setBounds(70, 59, 86, 20);
 		panel_1.add(textField_Rate);
@@ -105,7 +95,7 @@ public class MovieWindow extends JFrame {
 		panel_2.setBounds(20, 181, 313, 249);
 		getContentPane().add(panel_2);
 		panel_2.setLayout(null);
-
+/*
 		JLabel lblNombre = new JLabel("User name:");
 		lblNombre.setBounds(10, 57, 71, 28);
 		panel_2.add(lblNombre);
@@ -139,7 +129,7 @@ public class MovieWindow extends JFrame {
 				comment();
 			}
 		});
-
+*/
 		JButton btn_Rate = new JButton("Rate button");
 		btn_Rate.addActionListener(new ActionListener() {
 

@@ -53,7 +53,7 @@ public class Main extends JFrame {
 	public Main() {
 		
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
-		setSize(700, 600);
+		setSize(600, 600);
 		panel = new Panel();
 		getContentPane().add(panel, BorderLayout.CENTER);
 		panel.setLayout(null);
@@ -110,9 +110,12 @@ public class Main extends JFrame {
 		panel.add(comboBoxRate);
 */
 		table = new JTable(10,3);
+		table.getColumnModel().getColumn(0).setHeaderValue("Movie Name");
+		table.getColumnModel().getColumn(1).setHeaderValue("Description");
+		table.getColumnModel().getColumn(2).setHeaderValue("Rate");
 		scrollPane = new JScrollPane(table);
-		table.setFillsViewportHeight(true);
-		scrollPane.setBounds(60, 168, 477, 303);
+		//table.setFillsViewportHeight(true);
+		scrollPane.setBounds(60, 168, 400, 200);
 		scrollPane.setBorder(BorderFactory.createLineBorder(Color.RED));;
 		panel.add(scrollPane);
 
