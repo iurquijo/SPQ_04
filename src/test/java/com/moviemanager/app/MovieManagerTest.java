@@ -59,37 +59,7 @@ public class MovieManagerTest {
         assertTrue(test);
     }
 
-    
-
-    @Test
-    public void testSearchMoviesByName(){
-        boolean test = false;
-        String nameOne = "Agora";
-        String nameTwo = "The Godfather";
 
 
-        //create a playlist and add Agora to it
-        Mov movie = new Mov();
-        movie.setNameM(nameOne);
-        ArrayList<Mov> list = new ArrayList<>();
-
-        list.add(0, movie);
-        PlayLst pl = new PlayLst(list);
-
-
-        //pl.setplaylist(list);
-
-        //Search the film The Godfather in the playlist
-        Mov searchedMovie = null;
-        searchedMovie= pl.searchMovieInPlayListByName(nameTwo);
-
-        //The movie TheGodfather isn't in the playlist, so the asert is false
-        if((searchedMovie != null)&&(searchedMovie.getNameM().equals(nameTwo))){
-            test = true;
-            assertTrue(test);
-        }else{
-            assertTrue(test);
-        }
-    }
 
 }
