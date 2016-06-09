@@ -59,12 +59,7 @@ public class MovieManagerTest {
         assertTrue(test);
     }
 
-    @Test
-    public void testcomment(){
-        com = new Comment(text, user, agora);
-        boolean test = agora.addComment(com);
-        assertTrue(test);
-    }
+    
 
     @Test
     public void testSearchMoviesByName(){
