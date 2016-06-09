@@ -62,7 +62,8 @@ public class MovieManagerTest {
     @Test
     public void testcomment(){
         com = new Comment(text, user, agora);
-        assertTrue(agora.addComment(com));
+        boolean test = agora.addComment(com);
+        assertTrue(test);
     }
 
     @Test
@@ -88,7 +89,7 @@ public class MovieManagerTest {
         searchedMovie= pl.searchMovieInPlayListByName(nameTwo);
 
         //The movie TheGodfather isn't in the playlist, so the asert is false
-        if((searchedMovie != null)&&(searchedMovie.getNameM()==nameTwo)){
+        if((searchedMovie != null)&&(searchedMovie.getNameM().equals(nameTwo))){
             test = true;
             assertTrue(test);
         }else{
