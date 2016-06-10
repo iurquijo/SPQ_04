@@ -233,7 +233,7 @@ public class MovieTest {
 
     @Test
     @PerfTest(invocations = 100)
-    @Required(max = 1200, average = 250)
+    @Required(max = 1200, average = 1000)
     public void getMovieByNameTest() {
         boolean test = false;
         int cont = 0;
@@ -388,7 +388,7 @@ public class MovieTest {
 
     }
     @Test
-    @Required(max = 1200, average = 350)
+    @Required(max = 1200, average = 1000)
     public void UserDAOTest() {
         
         UserDAO udao= new UserDAO();
