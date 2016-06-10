@@ -1,0 +1,1270 @@
+17:55:32,077 (main) DEBUG [DataNucleus.General] - Using PluginRegistry org.datanucleus.plugin.NonManagedPluginRegistry
+17:55:32,168 (main) DEBUG [DataNucleus.General] - Registering bundle org.sonatype.inject version 2.3.0 at URL file:/Users/serhatsahin/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar.
+17:55:32,227 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/Users/serhatsahin/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar!/plugin.xml.
+17:55:32,231 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/Users/serhatsahin/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar!/plugin.xml.
+17:55:32,235 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus version 4.1.11 at URL file:/Users/serhatsahin/.m2/repository/org/datanucleus/datanucleus-core/4.1.11/datanucleus-core-4.1.11.jar.
+17:55:32,255 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/Users/serhatsahin/.m2/repository/org/datanucleus/datanucleus-core/4.1.11/datanucleus-core-4.1.11.jar!/plugin.xml.
+17:55:32,281 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/Users/serhatsahin/.m2/repository/org/datanucleus/datanucleus-core/4.1.11/datanucleus-core-4.1.11.jar!/plugin.xml.
+17:55:32,292 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.api.jdo version 4.1.2 at URL file:/Users/serhatsahin/.m2/repository/org/datanucleus/datanucleus-api-jdo/4.1.2/datanucleus-api-jdo-4.1.2.jar.
+17:55:32,296 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/Users/serhatsahin/.m2/repository/org/datanucleus/datanucleus-api-jdo/4.1.2/datanucleus-api-jdo-4.1.2.jar!/plugin.xml.
+17:55:32,299 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/Users/serhatsahin/.m2/repository/org/datanucleus/datanucleus-api-jdo/4.1.2/datanucleus-api-jdo-4.1.2.jar!/plugin.xml.
+17:55:32,303 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.store.rdbms version 4.1.13 at URL file:/Users/serhatsahin/.m2/repository/org/datanucleus/datanucleus-rdbms/4.1.13/datanucleus-rdbms-4.1.13.jar.
+17:55:32,327 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/Users/serhatsahin/.m2/repository/org/datanucleus/datanucleus-rdbms/4.1.13/datanucleus-rdbms-4.1.13.jar!/plugin.xml.
+17:55:32,346 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/Users/serhatsahin/.m2/repository/org/datanucleus/datanucleus-rdbms/4.1.13/datanucleus-rdbms-4.1.13.jar!/plugin.xml.
+17:55:32,394 (main) DEBUG [DataNucleus.Persistence] - Java types support initialising ...
+17:55:32,491 (main) DEBUG [DataNucleus.Persistence] - Java types support loaded : supported java types=[B, [C, [D, [F, [I, [J, [Ljava.lang.Boolean;, [Ljava.lang.Byte;, [Ljava.lang.Character;, [Ljava.lang.Double;, [Ljava.lang.Enum;, [Ljava.lang.Float;, [Ljava.lang.Integer;, [Ljava.lang.Long;, [Ljava.lang.Number;, [Ljava.lang.Short;, [Ljava.lang.String;, [Ljava.math.BigDecimal;, [Ljava.math.BigInteger;, [Ljava.util.Date;, [Ljava.util.Locale;, [S, [Z, boolean, byte, char, double, float, int, java.awt.Color, java.awt.image.BufferedImage, java.lang.Boolean, java.lang.Byte, java.lang.Character, java.lang.Class, java.lang.Double, java.lang.Enum, java.lang.Float, java.lang.Integer, java.lang.Long, java.lang.Number, java.lang.Short, java.lang.String, java.lang.StringBuffer, java.lang.StringBuilder, java.math.BigDecimal, java.math.BigInteger, java.net.URI, java.net.URL, java.sql.Date, java.sql.Time, java.sql.Timestamp, java.util.ArrayList, java.util.Arrays$ArrayList, java.util.BitSet, java.util.Calendar, java.util.Collection, java.util.Currency, java.util.Date, java.util.GregorianCalendar, java.util.HashMap, java.util.HashSet, java.util.Hashtable, java.util.LinkedHashMap, java.util.LinkedHashSet, java.util.LinkedList, java.util.List, java.util.Locale, java.util.Map, java.util.PriorityQueue, java.util.Properties, java.util.Queue, java.util.Set, java.util.SortedMap, java.util.SortedSet, java.util.Stack, java.util.TimeZone, java.util.TreeMap, java.util.TreeSet, java.util.UUID, java.util.Vector, long, short
+17:55:32,491 (main) DEBUG [DataNucleus.Persistence] - Type converter support initialising ...
+17:55:32,536 (main) DEBUG [DataNucleus.Persistence] - Type converter support loaded
+17:55:32,536 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for byte[] to : java.nio.ByteBuffer
+17:55:32,536 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for char[] to : java.nio.ByteBuffer
+17:55:32,536 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for double[] to : java.nio.ByteBuffer
+17:55:32,537 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for float[] to : java.nio.ByteBuffer
+17:55:32,537 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for int[] to : java.nio.ByteBuffer
+17:55:32,537 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for long[] to : java.nio.ByteBuffer
+17:55:32,537 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for short[] to : java.nio.ByteBuffer
+17:55:32,537 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for boolean[] to : java.nio.ByteBuffer
+17:55:32,537 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.awt.Color to : int[],java.lang.String
+17:55:32,537 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.io.Serializable to : byte[],java.lang.String,java.nio.ByteBuffer
+17:55:32,537 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Boolean to : java.lang.Integer,java.lang.Character
+17:55:32,537 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Character to : java.lang.String
+17:55:32,537 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Class to : java.lang.String
+17:55:32,537 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Integer to : java.lang.String
+17:55:32,537 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.Long to : java.lang.String
+17:55:32,537 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.StringBuffer to : java.lang.String
+17:55:32,537 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.lang.StringBuilder to : java.lang.String
+17:55:32,537 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.math.BigDecimal to : java.lang.Double,java.lang.String,java.nio.ByteBuffer
+17:55:32,537 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.math.BigInteger to : java.lang.Long,java.lang.String,java.nio.ByteBuffer
+17:55:32,537 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.net.URI to : java.lang.String
+17:55:32,538 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.net.URL to : java.lang.String
+17:55:32,538 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.sql.Date to : java.lang.Long,java.lang.String,java.util.Date
+17:55:32,538 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.sql.Time to : java.lang.Long,java.lang.String,java.util.Date
+17:55:32,538 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.sql.Timestamp to : java.lang.Long,java.lang.String,java.util.Date
+17:55:32,538 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.BitSet to : java.lang.String
+17:55:32,538 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.Calendar to : [Ljava.lang.Object;,java.sql.Timestamp,java.lang.String,java.util.Date
+17:55:32,538 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.Currency to : java.lang.String
+17:55:32,538 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.Date to : java.lang.Long,java.lang.String
+17:55:32,538 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.Locale to : java.lang.String
+17:55:32,538 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.TimeZone to : java.lang.String
+17:55:32,538 (main) DEBUG [DataNucleus.Persistence] - TypeConverter(s) available for java.util.UUID to : java.lang.String
+17:55:32,541 (main) DEBUG [DataNucleus.MetaData] - MetaDataManager : Input=(XML,Annotations), XML-Validation=false, XML-Suffices=(persistence=*.jdo, orm=orm, query=*.jdoquery), JDO-listener=false
+17:55:32,542 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 4.1.11) for API "JDO"
+17:55:32,542 (main) DEBUG [DataNucleus.Enhancer] - DataNucleus Enhancer : Classpath
+17:55:32,542 (main) DEBUG [DataNucleus.Enhancer] - >>  /Users/serhatsahin/.m2/repository/org/datanucleus/datanucleus-maven-plugin/4.0.0-release/datanucleus-maven-plugin-4.0.0-release.jar
+17:55:32,542 (main) DEBUG [DataNucleus.Enhancer] - >>  /Users/serhatsahin/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.8/plexus-utils-3.0.8.jar
+17:55:32,542 (main) DEBUG [DataNucleus.Enhancer] - >>  /Users/serhatsahin/.m2/repository/org/apache/maven/maven-artifact/3.0.4/maven-artifact-3.0.4.jar
+17:55:32,543 (main) DEBUG [DataNucleus.Enhancer] - >>  /Users/serhatsahin/.m2/repository/org/apache/maven/maven-plugin-api/3.0.4/maven-plugin-api-3.0.4.jar
+17:55:32,543 (main) DEBUG [DataNucleus.Enhancer] - >>  /Users/serhatsahin/.m2/repository/org/apache/maven/maven-model/3.0.4/maven-model-3.0.4.jar
+17:55:32,543 (main) DEBUG [DataNucleus.Enhancer] - >>  /Users/serhatsahin/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/2.3.0/sisu-inject-plexus-2.3.0.jar
+17:55:32,543 (main) DEBUG [DataNucleus.Enhancer] - >>  /Users/serhatsahin/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+17:55:32,543 (main) DEBUG [DataNucleus.Enhancer] - >>  /Users/serhatsahin/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar
+17:55:32,543 (main) DEBUG [DataNucleus.Enhancer] - >>  /Users/serhatsahin/.m2/repository/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar
+17:55:32,543 (main) DEBUG [DataNucleus.Enhancer] - >>  /Users/serhatsahin/.m2/repository/org/sonatype/sisu/sisu-guava/0.9.9/sisu-guava-0.9.9.jar
+17:55:32,543 (main) DEBUG [DataNucleus.Enhancer] - >>  /Users/serhatsahin/.m2/repository/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.jar
+17:55:32,544 (main) DEBUG [DataNucleus.Enhancer] - >>  /Users/serhatsahin/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.2/plexus-classworlds-2.2.2.jar
+17:55:32,544 (main) DEBUG [DataNucleus.Enhancer] - >>  /Users/serhatsahin/.m2/repository/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.jar
+17:55:32,544 (main) DEBUG [DataNucleus.Enhancer] - >>  /Users/serhatsahin/.m2/repository/log4j/log4j/1.2.12/log4j-1.2.12.jar
+17:55:32,544 (main) DEBUG [DataNucleus.Enhancer] - >>  /Users/serhatsahin/.m2/repository/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.jar
+17:55:32,544 (main) DEBUG [DataNucleus.Enhancer] - >>  /Users/serhatsahin/.m2/repository/com/google/collections/google-collections/1.0/google-collections-1.0.jar
+17:55:32,544 (main) DEBUG [DataNucleus.Enhancer] - >>  /Users/serhatsahin/.m2/repository/junit/junit/3.8.2/junit-3.8.2.jar
+17:55:32,544 (main) DEBUG [DataNucleus.Enhancer] - >>  /Users/serhatsahin/Desktop/git-moviemanager/SPQ_04/target/classes
+17:55:32,545 (main) DEBUG [DataNucleus.Enhancer] - >>  /Users/serhatsahin/.m2/repository/org/datanucleus/datanucleus-core/4.1.11/datanucleus-core-4.1.11.jar
+17:55:32,545 (main) DEBUG [DataNucleus.Enhancer] - >>  /Users/serhatsahin/.m2/repository/org/datanucleus/datanucleus-api-jdo/4.1.2/datanucleus-api-jdo-4.1.2.jar
+17:55:32,545 (main) DEBUG [DataNucleus.Enhancer] - >>  /Users/serhatsahin/.m2/repository/javax/jdo/jdo-api/3.1/jdo-api-3.1.jar
+17:55:32,545 (main) DEBUG [DataNucleus.Enhancer] - >>  /Users/serhatsahin/.m2/repository/javax/transaction/transaction-api/1.1/transaction-api-1.1.jar
+17:55:32,545 (main) DEBUG [DataNucleus.Enhancer] - >>  /Users/serhatsahin/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar
+17:55:32,545 (main) DEBUG [DataNucleus.Enhancer] - >>  /Users/serhatsahin/.m2/repository/org/datanucleus/datanucleus-rdbms/4.1.13/datanucleus-rdbms-4.1.13.jar
+17:55:32,545 (main) DEBUG [DataNucleus.Enhancer] - >>  /Users/serhatsahin/.m2/repository/mysql/mysql-connector-java/5.1.17/mysql-connector-java-5.1.17.jar
+17:55:32,546 (main) DEBUG [DataNucleus.Enhancer] - Enhancing classes
+17:55:32,566 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Loading Metadata for classes "[com.moviemanager.client.GraficalInterfaces.Client, com.moviemanager.client.GraficalInterfaces.FLogin, com.moviemanager.client.GraficalInterfaces.FMain, com.moviemanager.client.GraficalInterfaces.FMovie, com.moviemanager.client.GraficalInterfaces.FRegister, com.moviemanager.client.GraficalInterfaces.Login$1, com.moviemanager.client.GraficalInterfaces.Login$2, com.moviemanager.client.GraficalInterfaces.Login, com.moviemanager.client.GraficalInterfaces.Main$1, com.moviemanager.client.GraficalInterfaces.Main$2, com.moviemanager.client.GraficalInterfaces.Main$3$1, com.moviemanager.client.GraficalInterfaces.Main$3, com.moviemanager.client.GraficalInterfaces.Main$4$1, com.moviemanager.client.GraficalInterfaces.Main$4, com.moviemanager.client.GraficalInterfaces.Main, com.moviemanager.client.GraficalInterfaces.MovieWindow$1, com.moviemanager.client.GraficalInterfaces.MovieWindow$2, com.moviemanager.client.GraficalInterfaces.MovieWindow, com.moviemanager.client.GraficalInterfaces.Register$1, com.moviemanager.client.GraficalInterfaces.Register$2, com.moviemanager.client.GraficalInterfaces.Register, com.moviemanager.client.GraficalInterfaces.remote.RMIServiceLocator, com.moviemanager.server.DAO.IUserDAO, com.moviemanager.server.DAO.MovieDAO, com.moviemanager.server.DAO.UserDAO, com.moviemanager.server.DTO.MovieDTO, com.moviemanager.server.DTO.UserDTO, com.moviemanager.server.IServer, com.moviemanager.server.jdo.Actor, com.moviemanager.server.jdo.Comment, com.moviemanager.server.jdo.Drector, com.moviemanager.server.jdo.Mov, com.moviemanager.server.jdo.PlayLst, com.moviemanager.server.jdo.User, com.moviemanager.server.loadDatabase, com.moviemanager.server.Main, com.moviemanager.server.Server]" ...
+17:55:32,580 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Client" NOT found at /META-INF/package.jdo
+17:55:32,580 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Client" NOT found at /WEB-INF/package.jdo
+17:55:32,581 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Client" NOT found at /package.jdo
+17:55:32,585 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Client" NOT found at /com/package.jdo
+17:55:32,585 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Client" NOT found at /com.jdo
+17:55:32,585 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Client" NOT found at /com/moviemanager/package.jdo
+17:55:32,587 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Client" NOT found at /com/moviemanager.jdo
+17:55:32,587 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Client" NOT found at /com/moviemanager/client/package.jdo
+17:55:32,588 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Client" NOT found at /com/moviemanager/client.jdo
+17:55:32,588 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Client" NOT found at /com/moviemanager/client/GraficalInterfaces/package.jdo
+17:55:32,588 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Client" NOT found at /com/moviemanager/client/GraficalInterfaces.jdo
+17:55:32,589 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Client" NOT found at /com/moviemanager/client/GraficalInterfaces/Client.jdo
+17:55:32,589 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Client" not found
+17:55:32,589 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.moviemanager.client.GraficalInterfaces.Client" as not having MetaData.
+17:55:32,589 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.client.GraficalInterfaces.Client" has no MetaData or annotations.
+17:55:32,598 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FLogin" NOT found at /META-INF/package.jdo
+17:55:32,598 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FLogin" NOT found at /WEB-INF/package.jdo
+17:55:32,599 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FLogin" NOT found at /package.jdo
+17:55:32,600 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FLogin" NOT found at /com/package.jdo
+17:55:32,600 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FLogin" NOT found at /com.jdo
+17:55:32,601 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FLogin" NOT found at /com/moviemanager/package.jdo
+17:55:32,602 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FLogin" NOT found at /com/moviemanager.jdo
+17:55:32,602 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FLogin" NOT found at /com/moviemanager/client/package.jdo
+17:55:32,603 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FLogin" NOT found at /com/moviemanager/client.jdo
+17:55:32,603 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FLogin" NOT found at /com/moviemanager/client/GraficalInterfaces/package.jdo
+17:55:32,603 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FLogin" NOT found at /com/moviemanager/client/GraficalInterfaces.jdo
+17:55:32,604 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FLogin" NOT found at /com/moviemanager/client/GraficalInterfaces/FLogin.jdo
+17:55:32,604 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FLogin" not found
+17:55:32,604 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.moviemanager.client.GraficalInterfaces.FLogin" as not having MetaData.
+17:55:32,604 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.client.GraficalInterfaces.FLogin" has no MetaData or annotations.
+17:55:32,606 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FMain" NOT found at /META-INF/package.jdo
+17:55:32,606 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FMain" NOT found at /WEB-INF/package.jdo
+17:55:32,606 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FMain" NOT found at /package.jdo
+17:55:32,607 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FMain" NOT found at /com/package.jdo
+17:55:32,608 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FMain" NOT found at /com.jdo
+17:55:32,608 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FMain" NOT found at /com/moviemanager/package.jdo
+17:55:32,610 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FMain" NOT found at /com/moviemanager.jdo
+17:55:32,610 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FMain" NOT found at /com/moviemanager/client/package.jdo
+17:55:32,610 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FMain" NOT found at /com/moviemanager/client.jdo
+17:55:32,611 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FMain" NOT found at /com/moviemanager/client/GraficalInterfaces/package.jdo
+17:55:32,611 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FMain" NOT found at /com/moviemanager/client/GraficalInterfaces.jdo
+17:55:32,611 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FMain" NOT found at /com/moviemanager/client/GraficalInterfaces/FMain.jdo
+17:55:32,611 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FMain" not found
+17:55:32,611 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.moviemanager.client.GraficalInterfaces.FMain" as not having MetaData.
+17:55:32,612 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.client.GraficalInterfaces.FMain" has no MetaData or annotations.
+17:55:32,613 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FMovie" NOT found at /META-INF/package.jdo
+17:55:32,613 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FMovie" NOT found at /WEB-INF/package.jdo
+17:55:32,614 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FMovie" NOT found at /package.jdo
+17:55:32,615 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FMovie" NOT found at /com/package.jdo
+17:55:32,615 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FMovie" NOT found at /com.jdo
+17:55:32,616 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FMovie" NOT found at /com/moviemanager/package.jdo
+17:55:32,617 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FMovie" NOT found at /com/moviemanager.jdo
+17:55:32,618 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FMovie" NOT found at /com/moviemanager/client/package.jdo
+17:55:32,618 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FMovie" NOT found at /com/moviemanager/client.jdo
+17:55:32,618 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FMovie" NOT found at /com/moviemanager/client/GraficalInterfaces/package.jdo
+17:55:32,619 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FMovie" NOT found at /com/moviemanager/client/GraficalInterfaces.jdo
+17:55:32,619 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FMovie" NOT found at /com/moviemanager/client/GraficalInterfaces/FMovie.jdo
+17:55:32,619 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FMovie" not found
+17:55:32,619 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.moviemanager.client.GraficalInterfaces.FMovie" as not having MetaData.
+17:55:32,619 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.client.GraficalInterfaces.FMovie" has no MetaData or annotations.
+17:55:32,621 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FRegister" NOT found at /META-INF/package.jdo
+17:55:32,621 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FRegister" NOT found at /WEB-INF/package.jdo
+17:55:32,621 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FRegister" NOT found at /package.jdo
+17:55:32,624 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FRegister" NOT found at /com/package.jdo
+17:55:32,625 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FRegister" NOT found at /com.jdo
+17:55:32,625 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FRegister" NOT found at /com/moviemanager/package.jdo
+17:55:32,626 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FRegister" NOT found at /com/moviemanager.jdo
+17:55:32,626 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FRegister" NOT found at /com/moviemanager/client/package.jdo
+17:55:32,627 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FRegister" NOT found at /com/moviemanager/client.jdo
+17:55:32,627 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FRegister" NOT found at /com/moviemanager/client/GraficalInterfaces/package.jdo
+17:55:32,628 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FRegister" NOT found at /com/moviemanager/client/GraficalInterfaces.jdo
+17:55:32,628 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FRegister" NOT found at /com/moviemanager/client/GraficalInterfaces/FRegister.jdo
+17:55:32,628 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.FRegister" not found
+17:55:32,628 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.moviemanager.client.GraficalInterfaces.FRegister" as not having MetaData.
+17:55:32,628 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.client.GraficalInterfaces.FRegister" has no MetaData or annotations.
+17:55:32,629 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login$1" NOT found at /META-INF/package.jdo
+17:55:32,630 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login$1" NOT found at /WEB-INF/package.jdo
+17:55:32,630 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login$1" NOT found at /package.jdo
+17:55:32,631 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login$1" NOT found at /com/package.jdo
+17:55:32,632 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login$1" NOT found at /com.jdo
+17:55:32,632 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login$1" NOT found at /com/moviemanager/package.jdo
+17:55:32,633 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login$1" NOT found at /com/moviemanager.jdo
+17:55:32,634 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login$1" NOT found at /com/moviemanager/client/package.jdo
+17:55:32,634 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login$1" NOT found at /com/moviemanager/client.jdo
+17:55:32,634 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login$1" NOT found at /com/moviemanager/client/GraficalInterfaces/package.jdo
+17:55:32,635 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login$1" NOT found at /com/moviemanager/client/GraficalInterfaces.jdo
+17:55:32,635 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login$1" NOT found at /com/moviemanager/client/GraficalInterfaces/Login$1.jdo
+17:55:32,635 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login$1" not found
+17:55:32,635 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.moviemanager.client.GraficalInterfaces.Login$1" as not having MetaData.
+17:55:32,635 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.client.GraficalInterfaces.Login$1" has no MetaData or annotations.
+17:55:32,636 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login$2" NOT found at /META-INF/package.jdo
+17:55:32,636 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login$2" NOT found at /WEB-INF/package.jdo
+17:55:32,637 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login$2" NOT found at /package.jdo
+17:55:32,637 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login$2" NOT found at /com/package.jdo
+17:55:32,638 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login$2" NOT found at /com.jdo
+17:55:32,638 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login$2" NOT found at /com/moviemanager/package.jdo
+17:55:32,639 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login$2" NOT found at /com/moviemanager.jdo
+17:55:32,639 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login$2" NOT found at /com/moviemanager/client/package.jdo
+17:55:32,640 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login$2" NOT found at /com/moviemanager/client.jdo
+17:55:32,640 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login$2" NOT found at /com/moviemanager/client/GraficalInterfaces/package.jdo
+17:55:32,640 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login$2" NOT found at /com/moviemanager/client/GraficalInterfaces.jdo
+17:55:32,640 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login$2" NOT found at /com/moviemanager/client/GraficalInterfaces/Login$2.jdo
+17:55:32,640 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login$2" not found
+17:55:32,640 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.moviemanager.client.GraficalInterfaces.Login$2" as not having MetaData.
+17:55:32,640 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.client.GraficalInterfaces.Login$2" has no MetaData or annotations.
+17:55:32,641 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login" NOT found at /META-INF/package.jdo
+17:55:32,641 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login" NOT found at /WEB-INF/package.jdo
+17:55:32,641 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login" NOT found at /package.jdo
+17:55:32,642 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login" NOT found at /com/package.jdo
+17:55:32,642 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login" NOT found at /com.jdo
+17:55:32,642 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login" NOT found at /com/moviemanager/package.jdo
+17:55:32,643 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login" NOT found at /com/moviemanager.jdo
+17:55:32,644 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login" NOT found at /com/moviemanager/client/package.jdo
+17:55:32,644 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login" NOT found at /com/moviemanager/client.jdo
+17:55:32,644 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login" NOT found at /com/moviemanager/client/GraficalInterfaces/package.jdo
+17:55:32,645 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login" NOT found at /com/moviemanager/client/GraficalInterfaces.jdo
+17:55:32,645 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login" NOT found at /com/moviemanager/client/GraficalInterfaces/Login.jdo
+17:55:32,645 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Login" not found
+17:55:32,645 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.moviemanager.client.GraficalInterfaces.Login" as not having MetaData.
+17:55:32,645 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.client.GraficalInterfaces.Login" has no MetaData or annotations.
+17:55:32,646 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$1" NOT found at /META-INF/package.jdo
+17:55:32,646 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$1" NOT found at /WEB-INF/package.jdo
+17:55:32,646 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$1" NOT found at /package.jdo
+17:55:32,647 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$1" NOT found at /com/package.jdo
+17:55:32,648 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$1" NOT found at /com.jdo
+17:55:32,648 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$1" NOT found at /com/moviemanager/package.jdo
+17:55:32,649 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$1" NOT found at /com/moviemanager.jdo
+17:55:32,649 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$1" NOT found at /com/moviemanager/client/package.jdo
+17:55:32,650 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$1" NOT found at /com/moviemanager/client.jdo
+17:55:32,650 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$1" NOT found at /com/moviemanager/client/GraficalInterfaces/package.jdo
+17:55:32,651 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$1" NOT found at /com/moviemanager/client/GraficalInterfaces.jdo
+17:55:32,651 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$1" NOT found at /com/moviemanager/client/GraficalInterfaces/Main$1.jdo
+17:55:32,651 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$1" not found
+17:55:32,651 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.moviemanager.client.GraficalInterfaces.Main$1" as not having MetaData.
+17:55:32,651 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.client.GraficalInterfaces.Main$1" has no MetaData or annotations.
+17:55:32,652 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$2" NOT found at /META-INF/package.jdo
+17:55:32,652 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$2" NOT found at /WEB-INF/package.jdo
+17:55:32,653 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$2" NOT found at /package.jdo
+17:55:32,653 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$2" NOT found at /com/package.jdo
+17:55:32,654 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$2" NOT found at /com.jdo
+17:55:32,654 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$2" NOT found at /com/moviemanager/package.jdo
+17:55:32,655 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$2" NOT found at /com/moviemanager.jdo
+17:55:32,655 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$2" NOT found at /com/moviemanager/client/package.jdo
+17:55:32,655 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$2" NOT found at /com/moviemanager/client.jdo
+17:55:32,655 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$2" NOT found at /com/moviemanager/client/GraficalInterfaces/package.jdo
+17:55:32,656 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$2" NOT found at /com/moviemanager/client/GraficalInterfaces.jdo
+17:55:32,656 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$2" NOT found at /com/moviemanager/client/GraficalInterfaces/Main$2.jdo
+17:55:32,656 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$2" not found
+17:55:32,656 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.moviemanager.client.GraficalInterfaces.Main$2" as not having MetaData.
+17:55:32,656 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.client.GraficalInterfaces.Main$2" has no MetaData or annotations.
+17:55:32,657 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$3$1" NOT found at /META-INF/package.jdo
+17:55:32,657 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$3$1" NOT found at /WEB-INF/package.jdo
+17:55:32,657 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$3$1" NOT found at /package.jdo
+17:55:32,658 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$3$1" NOT found at /com/package.jdo
+17:55:32,659 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$3$1" NOT found at /com.jdo
+17:55:32,659 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$3$1" NOT found at /com/moviemanager/package.jdo
+17:55:32,660 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$3$1" NOT found at /com/moviemanager.jdo
+17:55:32,660 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$3$1" NOT found at /com/moviemanager/client/package.jdo
+17:55:32,661 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$3$1" NOT found at /com/moviemanager/client.jdo
+17:55:32,661 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$3$1" NOT found at /com/moviemanager/client/GraficalInterfaces/package.jdo
+17:55:32,661 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$3$1" NOT found at /com/moviemanager/client/GraficalInterfaces.jdo
+17:55:32,662 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$3$1" NOT found at /com/moviemanager/client/GraficalInterfaces/Main$3$1.jdo
+17:55:32,662 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$3$1" not found
+17:55:32,662 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.moviemanager.client.GraficalInterfaces.Main$3$1" as not having MetaData.
+17:55:32,662 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.client.GraficalInterfaces.Main$3$1" has no MetaData or annotations.
+17:55:32,663 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$3" NOT found at /META-INF/package.jdo
+17:55:32,663 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$3" NOT found at /WEB-INF/package.jdo
+17:55:32,663 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$3" NOT found at /package.jdo
+17:55:32,664 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$3" NOT found at /com/package.jdo
+17:55:32,664 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$3" NOT found at /com.jdo
+17:55:32,664 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$3" NOT found at /com/moviemanager/package.jdo
+17:55:32,665 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$3" NOT found at /com/moviemanager.jdo
+17:55:32,665 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$3" NOT found at /com/moviemanager/client/package.jdo
+17:55:32,665 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$3" NOT found at /com/moviemanager/client.jdo
+17:55:32,665 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$3" NOT found at /com/moviemanager/client/GraficalInterfaces/package.jdo
+17:55:32,666 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$3" NOT found at /com/moviemanager/client/GraficalInterfaces.jdo
+17:55:32,666 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$3" NOT found at /com/moviemanager/client/GraficalInterfaces/Main$3.jdo
+17:55:32,666 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$3" not found
+17:55:32,666 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.moviemanager.client.GraficalInterfaces.Main$3" as not having MetaData.
+17:55:32,667 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.client.GraficalInterfaces.Main$3" has no MetaData or annotations.
+17:55:32,668 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$4$1" NOT found at /META-INF/package.jdo
+17:55:32,668 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$4$1" NOT found at /WEB-INF/package.jdo
+17:55:32,668 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$4$1" NOT found at /package.jdo
+17:55:32,669 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$4$1" NOT found at /com/package.jdo
+17:55:32,670 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$4$1" NOT found at /com.jdo
+17:55:32,670 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$4$1" NOT found at /com/moviemanager/package.jdo
+17:55:32,671 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$4$1" NOT found at /com/moviemanager.jdo
+17:55:32,671 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$4$1" NOT found at /com/moviemanager/client/package.jdo
+17:55:32,671 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$4$1" NOT found at /com/moviemanager/client.jdo
+17:55:32,672 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$4$1" NOT found at /com/moviemanager/client/GraficalInterfaces/package.jdo
+17:55:32,672 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$4$1" NOT found at /com/moviemanager/client/GraficalInterfaces.jdo
+17:55:32,672 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$4$1" NOT found at /com/moviemanager/client/GraficalInterfaces/Main$4$1.jdo
+17:55:32,672 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$4$1" not found
+17:55:32,672 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.moviemanager.client.GraficalInterfaces.Main$4$1" as not having MetaData.
+17:55:32,672 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.client.GraficalInterfaces.Main$4$1" has no MetaData or annotations.
+17:55:32,674 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$4" NOT found at /META-INF/package.jdo
+17:55:32,675 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$4" NOT found at /WEB-INF/package.jdo
+17:55:32,675 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$4" NOT found at /package.jdo
+17:55:32,676 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$4" NOT found at /com/package.jdo
+17:55:32,676 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$4" NOT found at /com.jdo
+17:55:32,676 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$4" NOT found at /com/moviemanager/package.jdo
+17:55:32,676 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$4" NOT found at /com/moviemanager.jdo
+17:55:32,676 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$4" NOT found at /com/moviemanager/client/package.jdo
+17:55:32,677 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$4" NOT found at /com/moviemanager/client.jdo
+17:55:32,677 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$4" NOT found at /com/moviemanager/client/GraficalInterfaces/package.jdo
+17:55:32,680 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$4" NOT found at /com/moviemanager/client/GraficalInterfaces.jdo
+17:55:32,681 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$4" NOT found at /com/moviemanager/client/GraficalInterfaces/Main$4.jdo
+17:55:32,681 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main$4" not found
+17:55:32,681 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.moviemanager.client.GraficalInterfaces.Main$4" as not having MetaData.
+17:55:32,681 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.client.GraficalInterfaces.Main$4" has no MetaData or annotations.
+17:55:32,681 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main" NOT found at /META-INF/package.jdo
+17:55:32,682 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main" NOT found at /WEB-INF/package.jdo
+17:55:32,682 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main" NOT found at /package.jdo
+17:55:32,683 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main" NOT found at /com/package.jdo
+17:55:32,683 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main" NOT found at /com.jdo
+17:55:32,683 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main" NOT found at /com/moviemanager/package.jdo
+17:55:32,684 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main" NOT found at /com/moviemanager.jdo
+17:55:32,684 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main" NOT found at /com/moviemanager/client/package.jdo
+17:55:32,685 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main" NOT found at /com/moviemanager/client.jdo
+17:55:32,685 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main" NOT found at /com/moviemanager/client/GraficalInterfaces/package.jdo
+17:55:32,685 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main" NOT found at /com/moviemanager/client/GraficalInterfaces.jdo
+17:55:32,685 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main" NOT found at /com/moviemanager/client/GraficalInterfaces/Main.jdo
+17:55:32,685 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Main" not found
+17:55:32,686 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.moviemanager.client.GraficalInterfaces.Main" as not having MetaData.
+17:55:32,686 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.client.GraficalInterfaces.Main" has no MetaData or annotations.
+17:55:32,686 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow$1" NOT found at /META-INF/package.jdo
+17:55:32,687 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow$1" NOT found at /WEB-INF/package.jdo
+17:55:32,687 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow$1" NOT found at /package.jdo
+17:55:32,688 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow$1" NOT found at /com/package.jdo
+17:55:32,688 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow$1" NOT found at /com.jdo
+17:55:32,688 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow$1" NOT found at /com/moviemanager/package.jdo
+17:55:32,689 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow$1" NOT found at /com/moviemanager.jdo
+17:55:32,689 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow$1" NOT found at /com/moviemanager/client/package.jdo
+17:55:32,690 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow$1" NOT found at /com/moviemanager/client.jdo
+17:55:32,690 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow$1" NOT found at /com/moviemanager/client/GraficalInterfaces/package.jdo
+17:55:32,690 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow$1" NOT found at /com/moviemanager/client/GraficalInterfaces.jdo
+17:55:32,691 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow$1" NOT found at /com/moviemanager/client/GraficalInterfaces/MovieWindow$1.jdo
+17:55:32,691 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow$1" not found
+17:55:32,691 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.moviemanager.client.GraficalInterfaces.MovieWindow$1" as not having MetaData.
+17:55:32,691 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.client.GraficalInterfaces.MovieWindow$1" has no MetaData or annotations.
+17:55:32,692 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow$2" NOT found at /META-INF/package.jdo
+17:55:32,692 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow$2" NOT found at /WEB-INF/package.jdo
+17:55:32,692 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow$2" NOT found at /package.jdo
+17:55:32,693 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow$2" NOT found at /com/package.jdo
+17:55:32,693 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow$2" NOT found at /com.jdo
+17:55:32,694 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow$2" NOT found at /com/moviemanager/package.jdo
+17:55:32,694 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow$2" NOT found at /com/moviemanager.jdo
+17:55:32,695 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow$2" NOT found at /com/moviemanager/client/package.jdo
+17:55:32,695 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow$2" NOT found at /com/moviemanager/client.jdo
+17:55:32,695 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow$2" NOT found at /com/moviemanager/client/GraficalInterfaces/package.jdo
+17:55:32,695 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow$2" NOT found at /com/moviemanager/client/GraficalInterfaces.jdo
+17:55:32,696 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow$2" NOT found at /com/moviemanager/client/GraficalInterfaces/MovieWindow$2.jdo
+17:55:32,696 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow$2" not found
+17:55:32,696 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.moviemanager.client.GraficalInterfaces.MovieWindow$2" as not having MetaData.
+17:55:32,696 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.client.GraficalInterfaces.MovieWindow$2" has no MetaData or annotations.
+17:55:32,696 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow" NOT found at /META-INF/package.jdo
+17:55:32,697 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow" NOT found at /WEB-INF/package.jdo
+17:55:32,697 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow" NOT found at /package.jdo
+17:55:32,698 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow" NOT found at /com/package.jdo
+17:55:32,698 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow" NOT found at /com.jdo
+17:55:32,698 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow" NOT found at /com/moviemanager/package.jdo
+17:55:32,699 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow" NOT found at /com/moviemanager.jdo
+17:55:32,699 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow" NOT found at /com/moviemanager/client/package.jdo
+17:55:32,700 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow" NOT found at /com/moviemanager/client.jdo
+17:55:32,700 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow" NOT found at /com/moviemanager/client/GraficalInterfaces/package.jdo
+17:55:32,700 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow" NOT found at /com/moviemanager/client/GraficalInterfaces.jdo
+17:55:32,700 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow" NOT found at /com/moviemanager/client/GraficalInterfaces/MovieWindow.jdo
+17:55:32,701 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.MovieWindow" not found
+17:55:32,701 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.moviemanager.client.GraficalInterfaces.MovieWindow" as not having MetaData.
+17:55:32,701 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.client.GraficalInterfaces.MovieWindow" has no MetaData or annotations.
+17:55:32,701 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register$1" NOT found at /META-INF/package.jdo
+17:55:32,702 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register$1" NOT found at /WEB-INF/package.jdo
+17:55:32,702 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register$1" NOT found at /package.jdo
+17:55:32,703 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register$1" NOT found at /com/package.jdo
+17:55:32,703 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register$1" NOT found at /com.jdo
+17:55:32,703 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register$1" NOT found at /com/moviemanager/package.jdo
+17:55:32,704 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register$1" NOT found at /com/moviemanager.jdo
+17:55:32,704 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register$1" NOT found at /com/moviemanager/client/package.jdo
+17:55:32,704 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register$1" NOT found at /com/moviemanager/client.jdo
+17:55:32,705 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register$1" NOT found at /com/moviemanager/client/GraficalInterfaces/package.jdo
+17:55:32,705 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register$1" NOT found at /com/moviemanager/client/GraficalInterfaces.jdo
+17:55:32,705 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register$1" NOT found at /com/moviemanager/client/GraficalInterfaces/Register$1.jdo
+17:55:32,705 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register$1" not found
+17:55:32,705 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.moviemanager.client.GraficalInterfaces.Register$1" as not having MetaData.
+17:55:32,705 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.client.GraficalInterfaces.Register$1" has no MetaData or annotations.
+17:55:32,706 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register$2" NOT found at /META-INF/package.jdo
+17:55:32,706 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register$2" NOT found at /WEB-INF/package.jdo
+17:55:32,707 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register$2" NOT found at /package.jdo
+17:55:32,708 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register$2" NOT found at /com/package.jdo
+17:55:32,708 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register$2" NOT found at /com.jdo
+17:55:32,710 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register$2" NOT found at /com/moviemanager/package.jdo
+17:55:32,710 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register$2" NOT found at /com/moviemanager.jdo
+17:55:32,710 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register$2" NOT found at /com/moviemanager/client/package.jdo
+17:55:32,711 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register$2" NOT found at /com/moviemanager/client.jdo
+17:55:32,711 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register$2" NOT found at /com/moviemanager/client/GraficalInterfaces/package.jdo
+17:55:32,711 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register$2" NOT found at /com/moviemanager/client/GraficalInterfaces.jdo
+17:55:32,711 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register$2" NOT found at /com/moviemanager/client/GraficalInterfaces/Register$2.jdo
+17:55:32,711 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register$2" not found
+17:55:32,711 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.moviemanager.client.GraficalInterfaces.Register$2" as not having MetaData.
+17:55:32,711 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.client.GraficalInterfaces.Register$2" has no MetaData or annotations.
+17:55:32,712 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register" NOT found at /META-INF/package.jdo
+17:55:32,712 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register" NOT found at /WEB-INF/package.jdo
+17:55:32,712 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register" NOT found at /package.jdo
+17:55:32,713 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register" NOT found at /com/package.jdo
+17:55:32,713 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register" NOT found at /com.jdo
+17:55:32,714 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register" NOT found at /com/moviemanager/package.jdo
+17:55:32,714 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register" NOT found at /com/moviemanager.jdo
+17:55:32,715 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register" NOT found at /com/moviemanager/client/package.jdo
+17:55:32,715 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register" NOT found at /com/moviemanager/client.jdo
+17:55:32,715 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register" NOT found at /com/moviemanager/client/GraficalInterfaces/package.jdo
+17:55:32,715 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register" NOT found at /com/moviemanager/client/GraficalInterfaces.jdo
+17:55:32,716 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register" NOT found at /com/moviemanager/client/GraficalInterfaces/Register.jdo
+17:55:32,716 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.Register" not found
+17:55:32,716 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.moviemanager.client.GraficalInterfaces.Register" as not having MetaData.
+17:55:32,716 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.client.GraficalInterfaces.Register" has no MetaData or annotations.
+17:55:32,717 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.remote.RMIServiceLocator" NOT found at /META-INF/package.jdo
+17:55:32,717 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.remote.RMIServiceLocator" NOT found at /WEB-INF/package.jdo
+17:55:32,717 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.remote.RMIServiceLocator" NOT found at /package.jdo
+17:55:32,718 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.remote.RMIServiceLocator" NOT found at /com/package.jdo
+17:55:32,718 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.remote.RMIServiceLocator" NOT found at /com.jdo
+17:55:32,718 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.remote.RMIServiceLocator" NOT found at /com/moviemanager/package.jdo
+17:55:32,719 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.remote.RMIServiceLocator" NOT found at /com/moviemanager.jdo
+17:55:32,720 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.remote.RMIServiceLocator" NOT found at /com/moviemanager/client/package.jdo
+17:55:32,720 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.remote.RMIServiceLocator" NOT found at /com/moviemanager/client.jdo
+17:55:32,720 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.remote.RMIServiceLocator" NOT found at /com/moviemanager/client/GraficalInterfaces/package.jdo
+17:55:32,720 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.remote.RMIServiceLocator" NOT found at /com/moviemanager/client/GraficalInterfaces.jdo
+17:55:32,721 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.remote.RMIServiceLocator" NOT found at /com/moviemanager/client/GraficalInterfaces/remote/package.jdo
+17:55:32,721 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.remote.RMIServiceLocator" NOT found at /com/moviemanager/client/GraficalInterfaces/remote.jdo
+17:55:32,721 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.remote.RMIServiceLocator" NOT found at /com/moviemanager/client/GraficalInterfaces/remote/RMIServiceLocator.jdo
+17:55:32,721 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.client.GraficalInterfaces.remote.RMIServiceLocator" not found
+17:55:32,721 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.moviemanager.client.GraficalInterfaces.remote.RMIServiceLocator" as not having MetaData.
+17:55:32,721 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.client.GraficalInterfaces.remote.RMIServiceLocator" has no MetaData or annotations.
+17:55:32,722 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.DAO.IUserDAO" has no MetaData or annotations.
+17:55:32,723 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DAO.MovieDAO" NOT found at /META-INF/package.jdo
+17:55:32,723 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DAO.MovieDAO" NOT found at /WEB-INF/package.jdo
+17:55:32,723 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DAO.MovieDAO" NOT found at /package.jdo
+17:55:32,725 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DAO.MovieDAO" NOT found at /com/package.jdo
+17:55:32,725 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DAO.MovieDAO" NOT found at /com.jdo
+17:55:32,725 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DAO.MovieDAO" NOT found at /com/moviemanager/package.jdo
+17:55:32,726 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DAO.MovieDAO" NOT found at /com/moviemanager.jdo
+17:55:32,726 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DAO.MovieDAO" NOT found at /com/moviemanager/server/package.jdo
+17:55:32,726 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DAO.MovieDAO" NOT found at /com/moviemanager/server.jdo
+17:55:32,726 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DAO.MovieDAO" NOT found at /com/moviemanager/server/DAO/package.jdo
+17:55:32,727 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DAO.MovieDAO" NOT found at /com/moviemanager/server/DAO.jdo
+17:55:32,727 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DAO.MovieDAO" NOT found at /com/moviemanager/server/DAO/MovieDAO.jdo
+17:55:32,727 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DAO.MovieDAO" not found
+17:55:32,727 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.moviemanager.server.DAO.MovieDAO" as not having MetaData.
+17:55:32,727 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.DAO.MovieDAO" has no MetaData or annotations.
+17:55:32,728 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DAO.UserDAO" NOT found at /META-INF/package.jdo
+17:55:32,728 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DAO.UserDAO" NOT found at /WEB-INF/package.jdo
+17:55:32,728 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DAO.UserDAO" NOT found at /package.jdo
+17:55:32,728 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DAO.UserDAO" NOT found at /com/package.jdo
+17:55:32,729 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DAO.UserDAO" NOT found at /com.jdo
+17:55:32,729 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DAO.UserDAO" NOT found at /com/moviemanager/package.jdo
+17:55:32,729 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DAO.UserDAO" NOT found at /com/moviemanager.jdo
+17:55:32,729 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DAO.UserDAO" NOT found at /com/moviemanager/server/package.jdo
+17:55:32,730 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DAO.UserDAO" NOT found at /com/moviemanager/server.jdo
+17:55:32,730 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DAO.UserDAO" NOT found at /com/moviemanager/server/DAO/package.jdo
+17:55:32,730 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DAO.UserDAO" NOT found at /com/moviemanager/server/DAO.jdo
+17:55:32,730 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DAO.UserDAO" NOT found at /com/moviemanager/server/DAO/UserDAO.jdo
+17:55:32,730 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DAO.UserDAO" not found
+17:55:32,730 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.moviemanager.server.DAO.UserDAO" as not having MetaData.
+17:55:32,730 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.DAO.UserDAO" has no MetaData or annotations.
+17:55:32,731 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DTO.MovieDTO" NOT found at /META-INF/package.jdo
+17:55:32,732 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DTO.MovieDTO" NOT found at /WEB-INF/package.jdo
+17:55:32,732 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DTO.MovieDTO" NOT found at /package.jdo
+17:55:32,733 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DTO.MovieDTO" NOT found at /com/package.jdo
+17:55:32,733 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DTO.MovieDTO" NOT found at /com.jdo
+17:55:32,733 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DTO.MovieDTO" NOT found at /com/moviemanager/package.jdo
+17:55:32,734 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DTO.MovieDTO" NOT found at /com/moviemanager.jdo
+17:55:32,734 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DTO.MovieDTO" NOT found at /com/moviemanager/server/package.jdo
+17:55:32,735 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DTO.MovieDTO" NOT found at /com/moviemanager/server.jdo
+17:55:32,735 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DTO.MovieDTO" NOT found at /com/moviemanager/server/DTO/package.jdo
+17:55:32,735 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DTO.MovieDTO" NOT found at /com/moviemanager/server/DTO.jdo
+17:55:32,735 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DTO.MovieDTO" NOT found at /com/moviemanager/server/DTO/MovieDTO.jdo
+17:55:32,735 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DTO.MovieDTO" not found
+17:55:32,736 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.moviemanager.server.DTO.MovieDTO" as not having MetaData.
+17:55:32,736 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.DTO.MovieDTO" has no MetaData or annotations.
+17:55:32,737 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DTO.UserDTO" NOT found at /META-INF/package.jdo
+17:55:32,737 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DTO.UserDTO" NOT found at /WEB-INF/package.jdo
+17:55:32,737 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DTO.UserDTO" NOT found at /package.jdo
+17:55:32,738 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DTO.UserDTO" NOT found at /com/package.jdo
+17:55:32,738 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DTO.UserDTO" NOT found at /com.jdo
+17:55:32,738 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DTO.UserDTO" NOT found at /com/moviemanager/package.jdo
+17:55:32,739 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DTO.UserDTO" NOT found at /com/moviemanager.jdo
+17:55:32,739 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DTO.UserDTO" NOT found at /com/moviemanager/server/package.jdo
+17:55:32,739 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DTO.UserDTO" NOT found at /com/moviemanager/server.jdo
+17:55:32,740 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DTO.UserDTO" NOT found at /com/moviemanager/server/DTO/package.jdo
+17:55:32,740 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DTO.UserDTO" NOT found at /com/moviemanager/server/DTO.jdo
+17:55:32,740 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DTO.UserDTO" NOT found at /com/moviemanager/server/DTO/UserDTO.jdo
+17:55:32,740 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.DTO.UserDTO" not found
+17:55:32,740 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.moviemanager.server.DTO.UserDTO" as not having MetaData.
+17:55:32,740 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.DTO.UserDTO" has no MetaData or annotations.
+17:55:32,741 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.IServer" has no MetaData or annotations.
+17:55:32,856 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.Actor" has been specified with JDO annotations so using those.
+17:55:32,888 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.Comment" has been specified with JDO annotations so using those.
+17:55:32,890 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.Drector" has been specified with JDO annotations so using those.
+17:55:32,890 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.Mov" has been specified with JDO annotations so using those.
+17:55:32,893 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.PlayLst" has been specified with JDO annotations so using those.
+17:55:32,894 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.User" has been specified with JDO annotations so using those.
+17:55:32,897 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.loadDatabase" NOT found at /META-INF/package.jdo
+17:55:32,897 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.loadDatabase" NOT found at /WEB-INF/package.jdo
+17:55:32,897 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.loadDatabase" NOT found at /package.jdo
+17:55:32,898 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.loadDatabase" NOT found at /com/package.jdo
+17:55:32,898 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.loadDatabase" NOT found at /com.jdo
+17:55:32,899 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.loadDatabase" NOT found at /com/moviemanager/package.jdo
+17:55:32,899 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.loadDatabase" NOT found at /com/moviemanager.jdo
+17:55:32,899 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.loadDatabase" NOT found at /com/moviemanager/server/package.jdo
+17:55:32,900 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.loadDatabase" NOT found at /com/moviemanager/server.jdo
+17:55:32,900 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.loadDatabase" NOT found at /com/moviemanager/server/loadDatabase.jdo
+17:55:32,900 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.loadDatabase" not found
+17:55:32,900 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.moviemanager.server.loadDatabase" as not having MetaData.
+17:55:32,900 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.loadDatabase" has no MetaData or annotations.
+17:55:32,901 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.Main" NOT found at /META-INF/package.jdo
+17:55:32,901 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.Main" NOT found at /WEB-INF/package.jdo
+17:55:32,901 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.Main" NOT found at /package.jdo
+17:55:32,902 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.Main" NOT found at /com/package.jdo
+17:55:32,902 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.Main" NOT found at /com.jdo
+17:55:32,902 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.Main" NOT found at /com/moviemanager/package.jdo
+17:55:32,903 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.Main" NOT found at /com/moviemanager.jdo
+17:55:32,903 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.Main" NOT found at /com/moviemanager/server/package.jdo
+17:55:32,903 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.Main" NOT found at /com/moviemanager/server.jdo
+17:55:32,903 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.Main" NOT found at /com/moviemanager/server/Main.jdo
+17:55:32,903 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.Main" not found
+17:55:32,904 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.moviemanager.server.Main" as not having MetaData.
+17:55:32,904 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.Main" has no MetaData or annotations.
+17:55:32,905 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.Server" NOT found at /META-INF/package.jdo
+17:55:32,906 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.Server" NOT found at /WEB-INF/package.jdo
+17:55:32,906 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.Server" NOT found at /package.jdo
+17:55:32,906 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.Server" NOT found at /com/package.jdo
+17:55:32,906 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.Server" NOT found at /com.jdo
+17:55:32,906 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.Server" NOT found at /com/moviemanager/package.jdo
+17:55:32,907 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.Server" NOT found at /com/moviemanager.jdo
+17:55:32,907 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.Server" NOT found at /com/moviemanager/server/package.jdo
+17:55:32,907 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.Server" NOT found at /com/moviemanager/server.jdo
+17:55:32,907 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.Server" NOT found at /com/moviemanager/server/Server.jdo
+17:55:32,907 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.moviemanager.server.Server" not found
+17:55:32,907 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.moviemanager.server.Server" as not having MetaData.
+17:55:32,907 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.Server" has no MetaData or annotations.
+17:55:32,908 (main) DEBUG [DataNucleus.MetaData] - Populating all MetaData ...
+17:55:32,908 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.Actor" : Populating Meta-Data
+17:55:32,909 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.Actor" field "surname" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+17:55:32,911 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.Comment" : Populating Meta-Data
+17:55:32,911 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.Comment" field "user" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+17:55:32,911 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.Comment" field "movie" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+17:55:32,912 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.Drector" : Populating Meta-Data
+17:55:32,912 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.Drector" field "surname" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+17:55:32,912 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.Drector" field "moviesDirector" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+17:55:32,912 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.Mov" : Populating Meta-Data
+17:55:32,912 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.Mov" field "rate" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+17:55:32,912 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.Mov" field "numRates" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+17:55:32,912 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.Mov" field "description" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+17:55:32,912 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.Mov" field "director" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+17:55:32,913 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.PlayLst" : Populating Meta-Data
+17:55:32,913 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.PlayLst" field "user" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+17:55:32,913 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.PlayLst" field "playlistMovie" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+17:55:32,914 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.User" : Populating Meta-Data
+17:55:32,914 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.User" field "mail" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+17:55:32,914 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.User" field "password" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+17:55:32,914 (main) DEBUG [DataNucleus.MetaData] - Initialising all MetaData ...
+17:55:32,915 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.Actor" : Initialising Meta-Data
+17:55:32,917 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.Comment" : Initialising Meta-Data
+17:55:32,918 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.Drector" : Initialising Meta-Data
+17:55:32,918 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.Mov" : Initialising Meta-Data
+17:55:32,918 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.PlayLst" : Initialising Meta-Data
+17:55:32,918 (main) DEBUG [DataNucleus.MetaData] - Class "com.moviemanager.server.jdo.User" : Initialising Meta-Data
+17:55:32,918 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Load of Metadata complete
+17:55:32,926 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.moviemanager.server.jdo.Actor" starting ...
+17:55:32,951 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt implement the interface "org.datanucleus.enhancement.Persistable" but is required
+17:55:32,952 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have field "dnStateManager" but is required
+17:55:32,952 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have field "dnInheritedFieldCount" but is required
+17:55:32,952 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have field "dnFlags" but is required
+17:55:32,952 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have field "dnFieldTypes" but is required
+17:55:32,952 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have field "dnFieldNames" but is required
+17:55:32,952 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have field "dnFieldFlags" but is required
+17:55:32,952 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have field "dnPersistableSuperclass" but is required
+17:55:32,952 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnReplaceField" but is required
+17:55:32,952 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnIsTransactional" but is required
+17:55:32,952 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnNewInstance" but is required
+17:55:32,952 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnNewInstance" but is required
+17:55:32,952 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnSuperClone" but is required
+17:55:32,952 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnProvideFields" but is required
+17:55:32,952 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "___dn$loadClass" but is required
+17:55:32,953 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnGetManagedFieldCount" but is required
+17:55:32,953 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnIsDirty" but is required
+17:55:32,953 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnReplaceStateManager" but is required
+17:55:32,953 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnReplaceFlags" but is required
+17:55:32,953 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnIsDetached" but is required
+17:55:32,953 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnMakeDirty" but is required
+17:55:32,953 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "__dnPersistableSuperclassInit" but is required
+17:55:32,953 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnIsDeleted" but is required
+17:55:32,953 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "__dnFieldFlagsInit" but is required
+17:55:32,953 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "__dnFieldTypesInit" but is required
+17:55:32,953 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnProvideField" but is required
+17:55:32,953 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnPreSerialize" but is required
+17:55:32,953 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnGetObjectId" but is required
+17:55:32,953 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnGetVersion" but is required
+17:55:32,953 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnGetTransactionalObjectId" but is required
+17:55:32,953 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnIsNew" but is required
+17:55:32,953 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+17:55:32,953 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+17:55:32,953 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnCopyField" but is required
+17:55:32,953 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+17:55:32,953 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+17:55:32,953 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnGetExecutionContext" but is required
+17:55:32,953 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnCopyFields" but is required
+17:55:32,953 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "__dnGetInheritedFieldCount" but is required
+17:55:32,953 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnNewObjectIdInstance" but is required
+17:55:32,953 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnNewObjectIdInstance" but is required
+17:55:32,953 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnIsPersistent" but is required
+17:55:32,953 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "dnReplaceFields" but is required
+17:55:32,953 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Actor" doesnt have method "__dnFieldNamesInit" but is required
+17:55:32,962 (main) DEBUG [DataNucleus.Enhancer] - Adding interface: org.datanucleus.enhancement.Persistable
+17:55:32,967 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Actor.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Actor.moviesActor"
+17:55:32,967 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Actor.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Actor.moviesActor"
+17:55:32,968 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Actor.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Actor.name"
+17:55:32,968 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Actor.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Actor.surname"
+17:55:32,968 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Actor.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Actor.moviesActor"
+17:55:32,968 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Actor.getName changing field "com.moviemanager.server.jdo.Actor.name" for call to "dnGetname()"
+17:55:32,968 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Actor.setName changing field "com.moviemanager.server.jdo.Actor.name" for call to "dnSetname()"
+17:55:32,968 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Actor.getSurname changing field "com.moviemanager.server.jdo.Actor.surname" for call to "dnGetsurname()"
+17:55:32,968 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Actor.setSurname changing field "com.moviemanager.server.jdo.Actor.surname" for call to "dnSetsurname()"
+17:55:32,968 (main) DEBUG [DataNucleus.Enhancer] - Adding field "org.datanucleus.enhancement.StateManager dnStateManager"
+17:55:32,968 (main) DEBUG [DataNucleus.Enhancer] - Adding field "byte dnFlags"
+17:55:32,968 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[B dnFieldFlags"
+17:55:32,969 (main) DEBUG [DataNucleus.Enhancer] - Adding field "java.lang.Class dnPersistableSuperclass"
+17:55:32,969 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.Class; dnFieldTypes"
+17:55:32,969 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.String; dnFieldNames"
+17:55:32,969 (main) DEBUG [DataNucleus.Enhancer] - Adding field "int dnInheritedFieldCount"
+17:55:32,970 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void <clinit>()"
+17:55:32,972 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldConsumer fc, java.lang.Object oid)"
+17:55:32,972 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(java.lang.Object oid)"
+17:55:32,972 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(java.lang.Object oid)"
+17:55:32,972 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldSupplier fs, java.lang.Object oid)"
+17:55:32,973 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetObjectId()"
+17:55:32,973 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetVersion()"
+17:55:32,973 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnPreSerialize()"
+17:55:32,973 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.ExecutionContextReference dnGetExecutionContext()"
+17:55:32,974 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetTransactionalObjectId()"
+17:55:32,974 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDeleted()"
+17:55:32,975 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDirty()"
+17:55:32,975 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsNew()"
+17:55:32,975 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsPersistent()"
+17:55:32,975 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsTransactional()"
+17:55:32,975 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnMakeDirty(java.lang.String fieldName)"
+17:55:32,975 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance()"
+17:55:32,976 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance(java.lang.Object key)"
+17:55:32,976 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideFields([I indices)"
+17:55:32,976 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFields([I indices)"
+17:55:32,976 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFlags()"
+17:55:32,976 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceStateManager(org.datanucleus.enhancement.StateManager sm)"
+17:55:32,976 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDetached()"
+17:55:32,977 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm)"
+17:55:32,977 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm, java.lang.Object obj)"
+17:55:32,977 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceField(int index)"
+17:55:32,978 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideField(int index)"
+17:55:32,978 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyField(com.moviemanager.server.jdo.Actor obj, int index)"
+17:55:32,978 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyFields(java.lang.Object obj, [I indices)"
+17:55:32,979 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.String; __dnFieldNamesInit()"
+17:55:32,979 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.Class; __dnFieldTypesInit()"
+17:55:32,979 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[B __dnFieldFlagsInit()"
+17:55:32,979 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int __dnGetInheritedFieldCount()"
+17:55:32,981 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int dnGetManagedFieldCount()"
+17:55:32,982 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class __dnPersistableSuperclassInit()"
+17:55:32,982 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class ___dn$loadClass(java.lang.String className)"
+17:55:32,983 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnSuperClone()"
+17:55:33,007 (main) DEBUG [DataNucleus.Enhancer] - Adding field "long serialVersionUID"
+17:55:33,007 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void writeObject(java.io.ObjectOutputStream out)"
+17:55:33,009 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.util.List dnGetmoviesActor(com.moviemanager.server.jdo.Actor objPC)"
+17:55:33,009 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetmoviesActor(com.moviemanager.server.jdo.Actor objPC, java.util.List val)"
+17:55:33,009 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetname(com.moviemanager.server.jdo.Actor objPC)"
+17:55:33,010 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetname(com.moviemanager.server.jdo.Actor objPC, java.lang.String val)"
+17:55:33,011 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetsurname(com.moviemanager.server.jdo.Actor objPC)"
+17:55:33,011 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetsurname(com.moviemanager.server.jdo.Actor objPC, java.lang.String val)"
+17:55:33,012 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/serhatsahin/Desktop/git-moviemanager/SPQ_04/target/classes/com/moviemanager/server/jdo/Actor.class" with enhanced definition
+17:55:33,012 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : com.moviemanager.server.jdo.Actor
+17:55:33,012 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.moviemanager.server.jdo.Actor" completed
+17:55:33,012 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.moviemanager.server.jdo.Comment" starting ...
+17:55:33,013 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt implement the interface "org.datanucleus.enhancement.Persistable" but is required
+17:55:33,013 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have field "dnStateManager" but is required
+17:55:33,013 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have field "dnInheritedFieldCount" but is required
+17:55:33,013 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have field "dnFlags" but is required
+17:55:33,013 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have field "dnFieldTypes" but is required
+17:55:33,013 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have field "dnFieldNames" but is required
+17:55:33,013 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have field "dnFieldFlags" but is required
+17:55:33,013 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have field "dnPersistableSuperclass" but is required
+17:55:33,013 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnReplaceField" but is required
+17:55:33,013 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnIsTransactional" but is required
+17:55:33,013 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnNewInstance" but is required
+17:55:33,013 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnNewInstance" but is required
+17:55:33,013 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnSuperClone" but is required
+17:55:33,013 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnProvideFields" but is required
+17:55:33,013 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "___dn$loadClass" but is required
+17:55:33,013 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnGetManagedFieldCount" but is required
+17:55:33,013 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnIsDirty" but is required
+17:55:33,013 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnReplaceStateManager" but is required
+17:55:33,013 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnReplaceFlags" but is required
+17:55:33,013 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnIsDetached" but is required
+17:55:33,013 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnMakeDirty" but is required
+17:55:33,013 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "__dnPersistableSuperclassInit" but is required
+17:55:33,014 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnIsDeleted" but is required
+17:55:33,014 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "__dnFieldFlagsInit" but is required
+17:55:33,014 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "__dnFieldTypesInit" but is required
+17:55:33,014 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnProvideField" but is required
+17:55:33,014 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnPreSerialize" but is required
+17:55:33,014 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnGetObjectId" but is required
+17:55:33,014 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnGetVersion" but is required
+17:55:33,014 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnGetTransactionalObjectId" but is required
+17:55:33,014 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnIsNew" but is required
+17:55:33,014 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+17:55:33,014 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+17:55:33,014 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnCopyField" but is required
+17:55:33,014 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+17:55:33,014 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+17:55:33,014 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnGetExecutionContext" but is required
+17:55:33,014 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnCopyFields" but is required
+17:55:33,014 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "__dnGetInheritedFieldCount" but is required
+17:55:33,014 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnNewObjectIdInstance" but is required
+17:55:33,014 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnNewObjectIdInstance" but is required
+17:55:33,014 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnIsPersistent" but is required
+17:55:33,014 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "dnReplaceFields" but is required
+17:55:33,014 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Comment" doesnt have method "__dnFieldNamesInit" but is required
+17:55:33,014 (main) DEBUG [DataNucleus.Enhancer] - Adding interface: org.datanucleus.enhancement.Persistable
+17:55:33,015 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Comment.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Comment.text"
+17:55:33,015 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Comment.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Comment.user"
+17:55:33,015 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Comment.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Comment.movie"
+17:55:33,015 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Comment.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Comment.text"
+17:55:33,015 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Comment.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Comment.user"
+17:55:33,015 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Comment.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Comment.movie"
+17:55:33,015 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Comment.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Comment.text"
+17:55:33,015 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Comment.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Comment.movie"
+17:55:33,015 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Comment.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Comment.user"
+17:55:33,015 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Comment.getText changing field "com.moviemanager.server.jdo.Comment.text" for call to "dnGettext()"
+17:55:33,015 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Comment.setText changing field "com.moviemanager.server.jdo.Comment.text" for call to "dnSettext()"
+17:55:33,015 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Comment.getMovie changing field "com.moviemanager.server.jdo.Comment.movie" for call to "dnGetmovie()"
+17:55:33,015 (main) DEBUG [DataNucleus.Enhancer] - Adding field "org.datanucleus.enhancement.StateManager dnStateManager"
+17:55:33,015 (main) DEBUG [DataNucleus.Enhancer] - Adding field "byte dnFlags"
+17:55:33,015 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[B dnFieldFlags"
+17:55:33,016 (main) DEBUG [DataNucleus.Enhancer] - Adding field "java.lang.Class dnPersistableSuperclass"
+17:55:33,016 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.Class; dnFieldTypes"
+17:55:33,016 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.String; dnFieldNames"
+17:55:33,016 (main) DEBUG [DataNucleus.Enhancer] - Adding field "int dnInheritedFieldCount"
+17:55:33,016 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void <clinit>()"
+17:55:33,016 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldConsumer fc, java.lang.Object oid)"
+17:55:33,016 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(java.lang.Object oid)"
+17:55:33,016 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(java.lang.Object oid)"
+17:55:33,016 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldSupplier fs, java.lang.Object oid)"
+17:55:33,016 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetObjectId()"
+17:55:33,016 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetVersion()"
+17:55:33,016 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnPreSerialize()"
+17:55:33,016 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.ExecutionContextReference dnGetExecutionContext()"
+17:55:33,017 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetTransactionalObjectId()"
+17:55:33,017 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDeleted()"
+17:55:33,017 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDirty()"
+17:55:33,017 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsNew()"
+17:55:33,017 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsPersistent()"
+17:55:33,017 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsTransactional()"
+17:55:33,017 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnMakeDirty(java.lang.String fieldName)"
+17:55:33,017 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance()"
+17:55:33,017 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance(java.lang.Object key)"
+17:55:33,017 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideFields([I indices)"
+17:55:33,017 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFields([I indices)"
+17:55:33,017 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFlags()"
+17:55:33,017 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceStateManager(org.datanucleus.enhancement.StateManager sm)"
+17:55:33,017 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDetached()"
+17:55:33,017 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm)"
+17:55:33,018 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm, java.lang.Object obj)"
+17:55:33,018 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceField(int index)"
+17:55:33,018 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideField(int index)"
+17:55:33,018 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyField(com.moviemanager.server.jdo.Comment obj, int index)"
+17:55:33,018 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyFields(java.lang.Object obj, [I indices)"
+17:55:33,018 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.String; __dnFieldNamesInit()"
+17:55:33,018 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.Class; __dnFieldTypesInit()"
+17:55:33,018 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[B __dnFieldFlagsInit()"
+17:55:33,018 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int __dnGetInheritedFieldCount()"
+17:55:33,018 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int dnGetManagedFieldCount()"
+17:55:33,018 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class __dnPersistableSuperclassInit()"
+17:55:33,018 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class ___dn$loadClass(java.lang.String className)"
+17:55:33,018 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnSuperClone()"
+17:55:33,019 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void writeObject(java.io.ObjectOutputStream out)"
+17:55:33,019 (main) DEBUG [DataNucleus.Enhancer] - Adding method "com.moviemanager.server.jdo.Mov dnGetmovie(com.moviemanager.server.jdo.Comment objPC)"
+17:55:33,019 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetmovie(com.moviemanager.server.jdo.Comment objPC, com.moviemanager.server.jdo.Mov val)"
+17:55:33,019 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGettext(com.moviemanager.server.jdo.Comment objPC)"
+17:55:33,019 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSettext(com.moviemanager.server.jdo.Comment objPC, java.lang.String val)"
+17:55:33,019 (main) DEBUG [DataNucleus.Enhancer] - Adding method "com.moviemanager.server.jdo.User dnGetuser(com.moviemanager.server.jdo.Comment objPC)"
+17:55:33,019 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetuser(com.moviemanager.server.jdo.Comment objPC, com.moviemanager.server.jdo.User val)"
+17:55:33,019 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/serhatsahin/Desktop/git-moviemanager/SPQ_04/target/classes/com/moviemanager/server/jdo/Comment.class" with enhanced definition
+17:55:33,020 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : com.moviemanager.server.jdo.Comment
+17:55:33,020 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.moviemanager.server.jdo.Comment" completed
+17:55:33,020 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.moviemanager.server.jdo.Drector" starting ...
+17:55:33,020 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt implement the interface "org.datanucleus.enhancement.Persistable" but is required
+17:55:33,020 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have field "dnStateManager" but is required
+17:55:33,020 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have field "dnInheritedFieldCount" but is required
+17:55:33,020 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have field "dnFlags" but is required
+17:55:33,020 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have field "dnFieldTypes" but is required
+17:55:33,020 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have field "dnFieldNames" but is required
+17:55:33,020 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have field "dnFieldFlags" but is required
+17:55:33,020 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have field "dnPersistableSuperclass" but is required
+17:55:33,020 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnReplaceField" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnIsTransactional" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnNewInstance" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnNewInstance" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnSuperClone" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnProvideFields" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "___dn$loadClass" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnGetManagedFieldCount" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnIsDirty" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnReplaceStateManager" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnReplaceFlags" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnIsDetached" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnMakeDirty" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "__dnPersistableSuperclassInit" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnIsDeleted" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "__dnFieldFlagsInit" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "__dnFieldTypesInit" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnProvideField" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnPreSerialize" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnGetObjectId" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnGetVersion" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnGetTransactionalObjectId" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnIsNew" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnCopyField" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnGetExecutionContext" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnCopyFields" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "__dnGetInheritedFieldCount" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnNewObjectIdInstance" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnNewObjectIdInstance" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnIsPersistent" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "dnReplaceFields" but is required
+17:55:33,021 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Drector" doesnt have method "__dnFieldNamesInit" but is required
+17:55:33,022 (main) DEBUG [DataNucleus.Enhancer] - Adding interface: org.datanucleus.enhancement.Persistable
+17:55:33,022 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Drector.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Drector.name"
+17:55:33,022 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Drector.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Drector.surname"
+17:55:33,022 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Drector.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Drector.moviesDirector"
+17:55:33,022 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Drector.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Drector.name"
+17:55:33,022 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Drector.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Drector.surname"
+17:55:33,022 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Drector.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Drector.moviesDirector"
+17:55:33,022 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Drector.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Drector.name"
+17:55:33,022 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Drector.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Drector.surname"
+17:55:33,022 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Drector.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Drector.moviesDirector"
+17:55:33,022 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Drector.getName changing field "com.moviemanager.server.jdo.Drector.name" for call to "dnGetname()"
+17:55:33,023 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Drector.setName changing field "com.moviemanager.server.jdo.Drector.name" for call to "dnSetname()"
+17:55:33,023 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Drector.getSurname changing field "com.moviemanager.server.jdo.Drector.surname" for call to "dnGetsurname()"
+17:55:33,023 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Drector.setSurname changing field "com.moviemanager.server.jdo.Drector.surname" for call to "dnSetsurname()"
+17:55:33,023 (main) DEBUG [DataNucleus.Enhancer] - Adding field "org.datanucleus.enhancement.StateManager dnStateManager"
+17:55:33,023 (main) DEBUG [DataNucleus.Enhancer] - Adding field "byte dnFlags"
+17:55:33,023 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[B dnFieldFlags"
+17:55:33,023 (main) DEBUG [DataNucleus.Enhancer] - Adding field "java.lang.Class dnPersistableSuperclass"
+17:55:33,023 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.Class; dnFieldTypes"
+17:55:33,023 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.String; dnFieldNames"
+17:55:33,023 (main) DEBUG [DataNucleus.Enhancer] - Adding field "int dnInheritedFieldCount"
+17:55:33,023 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void <clinit>()"
+17:55:33,023 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldConsumer fc, java.lang.Object oid)"
+17:55:33,024 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(java.lang.Object oid)"
+17:55:33,024 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(java.lang.Object oid)"
+17:55:33,024 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldSupplier fs, java.lang.Object oid)"
+17:55:33,024 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetObjectId()"
+17:55:33,024 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetVersion()"
+17:55:33,024 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnPreSerialize()"
+17:55:33,024 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.ExecutionContextReference dnGetExecutionContext()"
+17:55:33,024 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetTransactionalObjectId()"
+17:55:33,024 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDeleted()"
+17:55:33,024 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDirty()"
+17:55:33,024 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsNew()"
+17:55:33,024 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsPersistent()"
+17:55:33,025 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsTransactional()"
+17:55:33,025 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnMakeDirty(java.lang.String fieldName)"
+17:55:33,025 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance()"
+17:55:33,025 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance(java.lang.Object key)"
+17:55:33,025 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideFields([I indices)"
+17:55:33,025 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFields([I indices)"
+17:55:33,025 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFlags()"
+17:55:33,025 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceStateManager(org.datanucleus.enhancement.StateManager sm)"
+17:55:33,025 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDetached()"
+17:55:33,025 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm)"
+17:55:33,025 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm, java.lang.Object obj)"
+17:55:33,025 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceField(int index)"
+17:55:33,026 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideField(int index)"
+17:55:33,026 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyField(com.moviemanager.server.jdo.Drector obj, int index)"
+17:55:33,026 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyFields(java.lang.Object obj, [I indices)"
+17:55:33,026 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.String; __dnFieldNamesInit()"
+17:55:33,026 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.Class; __dnFieldTypesInit()"
+17:55:33,026 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[B __dnFieldFlagsInit()"
+17:55:33,026 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int __dnGetInheritedFieldCount()"
+17:55:33,026 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int dnGetManagedFieldCount()"
+17:55:33,026 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class __dnPersistableSuperclassInit()"
+17:55:33,026 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class ___dn$loadClass(java.lang.String className)"
+17:55:33,026 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnSuperClone()"
+17:55:33,028 (main) DEBUG [DataNucleus.Enhancer] - Adding field "long serialVersionUID"
+17:55:33,028 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void writeObject(java.io.ObjectOutputStream out)"
+17:55:33,028 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.util.List dnGetmoviesDirector(com.moviemanager.server.jdo.Drector objPC)"
+17:55:33,029 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetmoviesDirector(com.moviemanager.server.jdo.Drector objPC, java.util.List val)"
+17:55:33,029 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetname(com.moviemanager.server.jdo.Drector objPC)"
+17:55:33,029 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetname(com.moviemanager.server.jdo.Drector objPC, java.lang.String val)"
+17:55:33,029 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetsurname(com.moviemanager.server.jdo.Drector objPC)"
+17:55:33,029 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetsurname(com.moviemanager.server.jdo.Drector objPC, java.lang.String val)"
+17:55:33,030 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/serhatsahin/Desktop/git-moviemanager/SPQ_04/target/classes/com/moviemanager/server/jdo/Drector.class" with enhanced definition
+17:55:33,030 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : com.moviemanager.server.jdo.Drector
+17:55:33,030 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.moviemanager.server.jdo.Drector" completed
+17:55:33,030 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.moviemanager.server.jdo.Mov" starting ...
+17:55:33,031 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt implement the interface "org.datanucleus.enhancement.Persistable" but is required
+17:55:33,031 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have field "dnStateManager" but is required
+17:55:33,031 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have field "dnInheritedFieldCount" but is required
+17:55:33,031 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have field "dnFlags" but is required
+17:55:33,031 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have field "dnFieldTypes" but is required
+17:55:33,031 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have field "dnFieldNames" but is required
+17:55:33,031 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have field "dnFieldFlags" but is required
+17:55:33,031 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have field "dnPersistableSuperclass" but is required
+17:55:33,031 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnReplaceField" but is required
+17:55:33,031 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnIsTransactional" but is required
+17:55:33,031 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnNewInstance" but is required
+17:55:33,031 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnNewInstance" but is required
+17:55:33,031 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnSuperClone" but is required
+17:55:33,031 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnProvideFields" but is required
+17:55:33,031 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "___dn$loadClass" but is required
+17:55:33,031 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnGetManagedFieldCount" but is required
+17:55:33,031 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnIsDirty" but is required
+17:55:33,031 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnReplaceStateManager" but is required
+17:55:33,031 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnReplaceFlags" but is required
+17:55:33,031 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnIsDetached" but is required
+17:55:33,031 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnMakeDirty" but is required
+17:55:33,031 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "__dnPersistableSuperclassInit" but is required
+17:55:33,031 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnIsDeleted" but is required
+17:55:33,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "__dnFieldFlagsInit" but is required
+17:55:33,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "__dnFieldTypesInit" but is required
+17:55:33,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnProvideField" but is required
+17:55:33,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnPreSerialize" but is required
+17:55:33,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnGetObjectId" but is required
+17:55:33,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnGetVersion" but is required
+17:55:33,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnGetTransactionalObjectId" but is required
+17:55:33,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnIsNew" but is required
+17:55:33,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+17:55:33,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+17:55:33,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnCopyField" but is required
+17:55:33,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+17:55:33,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+17:55:33,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnGetExecutionContext" but is required
+17:55:33,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnCopyFields" but is required
+17:55:33,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "__dnGetInheritedFieldCount" but is required
+17:55:33,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnNewObjectIdInstance" but is required
+17:55:33,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnNewObjectIdInstance" but is required
+17:55:33,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnIsPersistent" but is required
+17:55:33,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "dnReplaceFields" but is required
+17:55:33,032 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.Mov" doesnt have method "__dnFieldNamesInit" but is required
+17:55:33,032 (main) DEBUG [DataNucleus.Enhancer] - Adding interface: org.datanucleus.enhancement.Persistable
+17:55:33,032 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Mov.nameM"
+17:55:33,032 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Mov.rate"
+17:55:33,032 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Mov.numRates"
+17:55:33,033 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Mov.description"
+17:55:33,033 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Mov.director"
+17:55:33,033 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Mov.commentsM"
+17:55:33,033 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Mov.actorsM"
+17:55:33,033 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Mov.nameM"
+17:55:33,033 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Mov.rate"
+17:55:33,033 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Mov.numRates"
+17:55:33,033 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Mov.description"
+17:55:33,033 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Mov.director"
+17:55:33,033 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Mov.nameM"
+17:55:33,033 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Mov.rate"
+17:55:33,033 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Mov.numRates"
+17:55:33,033 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Mov.description"
+17:55:33,033 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Mov.director"
+17:55:33,033 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Mov.commentsM"
+17:55:33,033 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Mov.actorsM"
+17:55:33,033 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Mov.nameM"
+17:55:33,033 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Mov.rate"
+17:55:33,033 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Mov.numRates"
+17:55:33,033 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Mov.description"
+17:55:33,033 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Mov.director"
+17:55:33,033 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Mov.commentsM"
+17:55:33,033 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.Mov.actorsM"
+17:55:33,034 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.getNameM changing field "com.moviemanager.server.jdo.Mov.nameM" for call to "dnGetnameM()"
+17:55:33,034 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.setNameM changing field "com.moviemanager.server.jdo.Mov.nameM" for call to "dnSetnameM()"
+17:55:33,034 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.getRate changing field "com.moviemanager.server.jdo.Mov.rate" for call to "dnGetrate()"
+17:55:33,034 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.setRate changing field "com.moviemanager.server.jdo.Mov.rate" for call to "dnSetrate()"
+17:55:33,034 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.getNumRates changing field "com.moviemanager.server.jdo.Mov.numRates" for call to "dnGetnumRates()"
+17:55:33,034 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.setNumRates changing field "com.moviemanager.server.jdo.Mov.numRates" for call to "dnSetnumRates()"
+17:55:33,034 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.getDescription changing field "com.moviemanager.server.jdo.Mov.description" for call to "dnGetdescription()"
+17:55:33,034 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.setDescription changing field "com.moviemanager.server.jdo.Mov.description" for call to "dnSetdescription()"
+17:55:33,034 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.getDirector changing field "com.moviemanager.server.jdo.Mov.director" for call to "dnGetdirector()"
+17:55:33,034 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.setDirector changing field "com.moviemanager.server.jdo.Mov.director" for call to "dnSetdirector()"
+17:55:33,034 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.getCommentsM changing field "com.moviemanager.server.jdo.Mov.commentsM" for call to "dnGetcommentsM()"
+17:55:33,035 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.setCommentsM changing field "com.moviemanager.server.jdo.Mov.commentsM" for call to "dnSetcommentsM()"
+17:55:33,035 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.getActorsM changing field "com.moviemanager.server.jdo.Mov.actorsM" for call to "dnGetactorsM()"
+17:55:33,035 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.Mov.setActorsM changing field "com.moviemanager.server.jdo.Mov.actorsM" for call to "dnSetactorsM()"
+17:55:33,035 (main) DEBUG [DataNucleus.Enhancer] - Adding field "org.datanucleus.enhancement.StateManager dnStateManager"
+17:55:33,035 (main) DEBUG [DataNucleus.Enhancer] - Adding field "byte dnFlags"
+17:55:33,035 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[B dnFieldFlags"
+17:55:33,035 (main) DEBUG [DataNucleus.Enhancer] - Adding field "java.lang.Class dnPersistableSuperclass"
+17:55:33,035 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.Class; dnFieldTypes"
+17:55:33,035 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.String; dnFieldNames"
+17:55:33,035 (main) DEBUG [DataNucleus.Enhancer] - Adding field "int dnInheritedFieldCount"
+17:55:33,035 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void <clinit>()"
+17:55:33,035 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldConsumer fc, java.lang.Object oid)"
+17:55:33,035 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(java.lang.Object oid)"
+17:55:33,035 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(java.lang.Object oid)"
+17:55:33,036 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldSupplier fs, java.lang.Object oid)"
+17:55:33,036 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetObjectId()"
+17:55:33,036 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetVersion()"
+17:55:33,036 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnPreSerialize()"
+17:55:33,036 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.ExecutionContextReference dnGetExecutionContext()"
+17:55:33,036 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetTransactionalObjectId()"
+17:55:33,036 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDeleted()"
+17:55:33,036 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDirty()"
+17:55:33,036 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsNew()"
+17:55:33,036 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsPersistent()"
+17:55:33,036 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsTransactional()"
+17:55:33,036 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnMakeDirty(java.lang.String fieldName)"
+17:55:33,036 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance()"
+17:55:33,037 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance(java.lang.Object key)"
+17:55:33,037 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideFields([I indices)"
+17:55:33,037 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFields([I indices)"
+17:55:33,037 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFlags()"
+17:55:33,037 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceStateManager(org.datanucleus.enhancement.StateManager sm)"
+17:55:33,037 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDetached()"
+17:55:33,037 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm)"
+17:55:33,037 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm, java.lang.Object obj)"
+17:55:33,037 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceField(int index)"
+17:55:33,038 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideField(int index)"
+17:55:33,038 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyField(com.moviemanager.server.jdo.Mov obj, int index)"
+17:55:33,038 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyFields(java.lang.Object obj, [I indices)"
+17:55:33,038 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.String; __dnFieldNamesInit()"
+17:55:33,038 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.Class; __dnFieldTypesInit()"
+17:55:33,038 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[B __dnFieldFlagsInit()"
+17:55:33,038 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int __dnGetInheritedFieldCount()"
+17:55:33,038 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int dnGetManagedFieldCount()"
+17:55:33,038 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class __dnPersistableSuperclassInit()"
+17:55:33,038 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class ___dn$loadClass(java.lang.String className)"
+17:55:33,038 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnSuperClone()"
+17:55:33,038 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.util.List dnGetactorsM(com.moviemanager.server.jdo.Mov objPC)"
+17:55:33,039 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetactorsM(com.moviemanager.server.jdo.Mov objPC, java.util.List val)"
+17:55:33,039 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.util.List dnGetcommentsM(com.moviemanager.server.jdo.Mov objPC)"
+17:55:33,039 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetcommentsM(com.moviemanager.server.jdo.Mov objPC, java.util.List val)"
+17:55:33,039 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetdescription(com.moviemanager.server.jdo.Mov objPC)"
+17:55:33,039 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetdescription(com.moviemanager.server.jdo.Mov objPC, java.lang.String val)"
+17:55:33,039 (main) DEBUG [DataNucleus.Enhancer] - Adding method "com.moviemanager.server.jdo.Drector dnGetdirector(com.moviemanager.server.jdo.Mov objPC)"
+17:55:33,039 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetdirector(com.moviemanager.server.jdo.Mov objPC, com.moviemanager.server.jdo.Drector val)"
+17:55:33,039 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetnameM(com.moviemanager.server.jdo.Mov objPC)"
+17:55:33,039 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetnameM(com.moviemanager.server.jdo.Mov objPC, java.lang.String val)"
+17:55:33,040 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetnumRates(com.moviemanager.server.jdo.Mov objPC)"
+17:55:33,040 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetnumRates(com.moviemanager.server.jdo.Mov objPC, java.lang.String val)"
+17:55:33,040 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetrate(com.moviemanager.server.jdo.Mov objPC)"
+17:55:33,040 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetrate(com.moviemanager.server.jdo.Mov objPC, java.lang.String val)"
+17:55:33,042 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/serhatsahin/Desktop/git-moviemanager/SPQ_04/target/classes/com/moviemanager/server/jdo/Mov.class" with enhanced definition
+17:55:33,042 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : com.moviemanager.server.jdo.Mov
+17:55:33,042 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.moviemanager.server.jdo.Mov" completed
+17:55:33,042 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.moviemanager.server.jdo.PlayLst" starting ...
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt implement the interface "org.datanucleus.enhancement.Persistable" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have field "dnStateManager" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have field "dnInheritedFieldCount" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have field "dnFlags" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have field "dnFieldTypes" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have field "dnFieldNames" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have field "dnFieldFlags" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have field "dnPersistableSuperclass" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnReplaceField" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnIsTransactional" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnNewInstance" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnNewInstance" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnSuperClone" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnProvideFields" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "___dn$loadClass" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnGetManagedFieldCount" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnIsDirty" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnReplaceStateManager" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnReplaceFlags" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnIsDetached" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnMakeDirty" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "__dnPersistableSuperclassInit" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnIsDeleted" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "__dnFieldFlagsInit" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "__dnFieldTypesInit" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnProvideField" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnPreSerialize" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnGetObjectId" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnGetVersion" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnGetTransactionalObjectId" but is required
+17:55:33,043 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnIsNew" but is required
+17:55:33,044 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+17:55:33,044 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+17:55:33,044 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnCopyField" but is required
+17:55:33,044 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+17:55:33,044 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+17:55:33,044 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnGetExecutionContext" but is required
+17:55:33,044 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnCopyFields" but is required
+17:55:33,044 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "__dnGetInheritedFieldCount" but is required
+17:55:33,044 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnNewObjectIdInstance" but is required
+17:55:33,044 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnNewObjectIdInstance" but is required
+17:55:33,044 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnIsPersistent" but is required
+17:55:33,044 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "dnReplaceFields" but is required
+17:55:33,044 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.PlayLst" doesnt have method "__dnFieldNamesInit" but is required
+17:55:33,044 (main) DEBUG [DataNucleus.Enhancer] - Adding interface: org.datanucleus.enhancement.Persistable
+17:55:33,044 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.PlayLst.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.PlayLst.name"
+17:55:33,044 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.PlayLst.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.PlayLst.playlistMovie"
+17:55:33,045 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.PlayLst.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.PlayLst.name"
+17:55:33,045 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.PlayLst.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.PlayLst.playlistMovie"
+17:55:33,045 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.PlayLst.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.PlayLst.name"
+17:55:33,045 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.PlayLst.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.PlayLst.playlistMovie"
+17:55:33,045 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.PlayLst.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.PlayLst.name"
+17:55:33,045 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.PlayLst.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.PlayLst.playlistMovie"
+17:55:33,045 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.PlayLst.getName changing field "com.moviemanager.server.jdo.PlayLst.name" for call to "dnGetname()"
+17:55:33,045 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.PlayLst.setName changing field "com.moviemanager.server.jdo.PlayLst.name" for call to "dnSetname()"
+17:55:33,045 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.PlayLst.getplaylist changing field "com.moviemanager.server.jdo.PlayLst.playlistMovie" for call to "dnGetplaylistMovie()"
+17:55:33,045 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.PlayLst.setplaylist changing field "com.moviemanager.server.jdo.PlayLst.playlistMovie" for call to "dnSetplaylistMovie()"
+17:55:33,045 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.PlayLst.introduceFilm changing field "com.moviemanager.server.jdo.PlayLst.playlistMovie" for call to "dnGetplaylistMovie()"
+17:55:33,045 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.PlayLst.introduceFilm changing field "com.moviemanager.server.jdo.PlayLst.playlistMovie" for call to "dnGetplaylistMovie()"
+17:55:33,045 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.PlayLst.removeFilm changing field "com.moviemanager.server.jdo.PlayLst.playlistMovie" for call to "dnGetplaylistMovie()"
+17:55:33,045 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.PlayLst.replaceFilm changing field "com.moviemanager.server.jdo.PlayLst.playlistMovie" for call to "dnGetplaylistMovie()"
+17:55:33,046 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.PlayLst.replaceFilm changing field "com.moviemanager.server.jdo.PlayLst.playlistMovie" for call to "dnGetplaylistMovie()"
+17:55:33,046 (main) DEBUG [DataNucleus.Enhancer] - Adding field "org.datanucleus.enhancement.StateManager dnStateManager"
+17:55:33,046 (main) DEBUG [DataNucleus.Enhancer] - Adding field "byte dnFlags"
+17:55:33,046 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[B dnFieldFlags"
+17:55:33,046 (main) DEBUG [DataNucleus.Enhancer] - Adding field "java.lang.Class dnPersistableSuperclass"
+17:55:33,046 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.Class; dnFieldTypes"
+17:55:33,046 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.String; dnFieldNames"
+17:55:33,046 (main) DEBUG [DataNucleus.Enhancer] - Adding field "int dnInheritedFieldCount"
+17:55:33,046 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void <clinit>()"
+17:55:33,046 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldConsumer fc, java.lang.Object oid)"
+17:55:33,046 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(java.lang.Object oid)"
+17:55:33,046 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(java.lang.Object oid)"
+17:55:33,046 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldSupplier fs, java.lang.Object oid)"
+17:55:33,046 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetObjectId()"
+17:55:33,046 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetVersion()"
+17:55:33,047 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnPreSerialize()"
+17:55:33,047 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.ExecutionContextReference dnGetExecutionContext()"
+17:55:33,047 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetTransactionalObjectId()"
+17:55:33,047 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDeleted()"
+17:55:33,047 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDirty()"
+17:55:33,047 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsNew()"
+17:55:33,047 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsPersistent()"
+17:55:33,047 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsTransactional()"
+17:55:33,047 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnMakeDirty(java.lang.String fieldName)"
+17:55:33,047 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance()"
+17:55:33,047 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance(java.lang.Object key)"
+17:55:33,047 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideFields([I indices)"
+17:55:33,047 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFields([I indices)"
+17:55:33,048 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFlags()"
+17:55:33,048 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceStateManager(org.datanucleus.enhancement.StateManager sm)"
+17:55:33,048 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDetached()"
+17:55:33,048 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm)"
+17:55:33,048 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm, java.lang.Object obj)"
+17:55:33,048 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceField(int index)"
+17:55:33,048 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideField(int index)"
+17:55:33,048 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyField(com.moviemanager.server.jdo.PlayLst obj, int index)"
+17:55:33,048 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyFields(java.lang.Object obj, [I indices)"
+17:55:33,048 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.String; __dnFieldNamesInit()"
+17:55:33,048 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.Class; __dnFieldTypesInit()"
+17:55:33,048 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[B __dnFieldFlagsInit()"
+17:55:33,048 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int __dnGetInheritedFieldCount()"
+17:55:33,049 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int dnGetManagedFieldCount()"
+17:55:33,049 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class __dnPersistableSuperclassInit()"
+17:55:33,049 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class ___dn$loadClass(java.lang.String className)"
+17:55:33,049 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnSuperClone()"
+17:55:33,049 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void writeObject(java.io.ObjectOutputStream out)"
+17:55:33,049 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetname(com.moviemanager.server.jdo.PlayLst objPC)"
+17:55:33,049 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetname(com.moviemanager.server.jdo.PlayLst objPC, java.lang.String val)"
+17:55:33,049 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.util.ArrayList dnGetplaylistMovie(com.moviemanager.server.jdo.PlayLst objPC)"
+17:55:33,049 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetplaylistMovie(com.moviemanager.server.jdo.PlayLst objPC, java.util.ArrayList val)"
+17:55:33,049 (main) DEBUG [DataNucleus.Enhancer] - Adding method "com.moviemanager.server.jdo.User dnGetuser(com.moviemanager.server.jdo.PlayLst objPC)"
+17:55:33,049 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetuser(com.moviemanager.server.jdo.PlayLst objPC, com.moviemanager.server.jdo.User val)"
+17:55:33,050 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/serhatsahin/Desktop/git-moviemanager/SPQ_04/target/classes/com/moviemanager/server/jdo/PlayLst.class" with enhanced definition
+17:55:33,050 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : com.moviemanager.server.jdo.PlayLst
+17:55:33,050 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.moviemanager.server.jdo.PlayLst" completed
+17:55:33,050 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.moviemanager.server.jdo.User" starting ...
+17:55:33,050 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt implement the interface "org.datanucleus.enhancement.Persistable" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have field "dnStateManager" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have field "dnInheritedFieldCount" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have field "dnFlags" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have field "dnFieldTypes" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have field "dnFieldNames" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have field "dnFieldFlags" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have field "dnPersistableSuperclass" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnReplaceField" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnIsTransactional" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnNewInstance" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnNewInstance" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnSuperClone" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnProvideFields" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "___dn$loadClass" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnGetManagedFieldCount" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnIsDirty" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnReplaceStateManager" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnReplaceFlags" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnIsDetached" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnMakeDirty" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "__dnPersistableSuperclassInit" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnIsDeleted" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "__dnFieldFlagsInit" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "__dnFieldTypesInit" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnProvideField" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnPreSerialize" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnGetObjectId" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnGetVersion" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnGetTransactionalObjectId" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnIsNew" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnCopyKeyFieldsToObjectId" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnCopyField" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+17:55:33,051 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnCopyKeyFieldsFromObjectId" but is required
+17:55:33,052 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnGetExecutionContext" but is required
+17:55:33,052 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnCopyFields" but is required
+17:55:33,052 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "__dnGetInheritedFieldCount" but is required
+17:55:33,052 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnNewObjectIdInstance" but is required
+17:55:33,052 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnNewObjectIdInstance" but is required
+17:55:33,052 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnIsPersistent" but is required
+17:55:33,052 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "dnReplaceFields" but is required
+17:55:33,052 (main) DEBUG [DataNucleus.Enhancer] - Class "com.moviemanager.server.jdo.User" doesnt have method "__dnFieldNamesInit" but is required
+17:55:33,052 (main) DEBUG [DataNucleus.Enhancer] - Adding interface: org.datanucleus.enhancement.Persistable
+17:55:33,052 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.User.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.User.mail"
+17:55:33,052 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.User.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.User.commentsUser"
+17:55:33,053 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.User.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.User.playLstUser"
+17:55:33,053 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.User.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.User.mail"
+17:55:33,053 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.User.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.User.commentsUser"
+17:55:33,053 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.User.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.User.playLstUser"
+17:55:33,053 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.User.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.User.mail"
+17:55:33,053 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.User.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.User.nick"
+17:55:33,053 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.User.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.User.password"
+17:55:33,053 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.User.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.User.commentsUser"
+17:55:33,053 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.User.<init> : omitting enhance of set of field "com.moviemanager.server.jdo.User.playLstUser"
+17:55:33,053 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.User.getNick changing field "com.moviemanager.server.jdo.User.nick" for call to "dnGetnick()"
+17:55:33,053 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.User.setNick changing field "com.moviemanager.server.jdo.User.nick" for call to "dnSetnick()"
+17:55:33,053 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.User.getPassword changing field "com.moviemanager.server.jdo.User.password" for call to "dnGetpassword()"
+17:55:33,053 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.User.setPassword changing field "com.moviemanager.server.jdo.User.password" for call to "dnSetpassword()"
+17:55:33,053 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.User.getMail changing field "com.moviemanager.server.jdo.User.mail" for call to "dnGetmail()"
+17:55:33,053 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.User.setMail changing field "com.moviemanager.server.jdo.User.mail" for call to "dnSetmail()"
+17:55:33,054 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.User.getCommentsUser changing field "com.moviemanager.server.jdo.User.commentsUser" for call to "dnGetcommentsUser()"
+17:55:33,054 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.User.setCommentsUser changing field "com.moviemanager.server.jdo.User.commentsUser" for call to "dnSetcommentsUser()"
+17:55:33,054 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.User.getPlayListUser changing field "com.moviemanager.server.jdo.User.playLstUser" for call to "dnGetplayLstUser()"
+17:55:33,054 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.moviemanager.server.jdo.User.setCommentsM changing field "com.moviemanager.server.jdo.User.playLstUser" for call to "dnSetplayLstUser()"
+17:55:33,054 (main) DEBUG [DataNucleus.Enhancer] - Adding field "org.datanucleus.enhancement.StateManager dnStateManager"
+17:55:33,054 (main) DEBUG [DataNucleus.Enhancer] - Adding field "byte dnFlags"
+17:55:33,054 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[B dnFieldFlags"
+17:55:33,054 (main) DEBUG [DataNucleus.Enhancer] - Adding field "java.lang.Class dnPersistableSuperclass"
+17:55:33,054 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.Class; dnFieldTypes"
+17:55:33,054 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.String; dnFieldNames"
+17:55:33,054 (main) DEBUG [DataNucleus.Enhancer] - Adding field "int dnInheritedFieldCount"
+17:55:33,054 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void <clinit>()"
+17:55:33,054 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldConsumer fc, java.lang.Object oid)"
+17:55:33,054 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsFromObjectId(java.lang.Object oid)"
+17:55:33,054 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(java.lang.Object oid)"
+17:55:33,055 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyKeyFieldsToObjectId(org.datanucleus.enhancement.Persistable$ObjectIdFieldSupplier fs, java.lang.Object oid)"
+17:55:33,055 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetObjectId()"
+17:55:33,055 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetVersion()"
+17:55:33,055 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnPreSerialize()"
+17:55:33,055 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.ExecutionContextReference dnGetExecutionContext()"
+17:55:33,055 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnGetTransactionalObjectId()"
+17:55:33,055 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDeleted()"
+17:55:33,055 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDirty()"
+17:55:33,055 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsNew()"
+17:55:33,055 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsPersistent()"
+17:55:33,055 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsTransactional()"
+17:55:33,055 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnMakeDirty(java.lang.String fieldName)"
+17:55:33,055 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance()"
+17:55:33,055 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnNewObjectIdInstance(java.lang.Object key)"
+17:55:33,055 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideFields([I indices)"
+17:55:33,056 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFields([I indices)"
+17:55:33,056 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceFlags()"
+17:55:33,056 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceStateManager(org.datanucleus.enhancement.StateManager sm)"
+17:55:33,056 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean dnIsDetached()"
+17:55:33,056 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm)"
+17:55:33,056 (main) DEBUG [DataNucleus.Enhancer] - Adding method "org.datanucleus.enhancement.Persistable dnNewInstance(org.datanucleus.enhancement.StateManager sm, java.lang.Object obj)"
+17:55:33,056 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnReplaceField(int index)"
+17:55:33,056 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnProvideField(int index)"
+17:55:33,056 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyField(com.moviemanager.server.jdo.User obj, int index)"
+17:55:33,056 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnCopyFields(java.lang.Object obj, [I indices)"
+17:55:33,056 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.String; __dnFieldNamesInit()"
+17:55:33,057 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.Class; __dnFieldTypesInit()"
+17:55:33,057 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[B __dnFieldFlagsInit()"
+17:55:33,057 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int __dnGetInheritedFieldCount()"
+17:55:33,057 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int dnGetManagedFieldCount()"
+17:55:33,057 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class __dnPersistableSuperclassInit()"
+17:55:33,057 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class ___dn$loadClass(java.lang.String className)"
+17:55:33,057 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object dnSuperClone()"
+17:55:33,057 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.util.List dnGetcommentsUser(com.moviemanager.server.jdo.User objPC)"
+17:55:33,057 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetcommentsUser(com.moviemanager.server.jdo.User objPC, java.util.List val)"
+17:55:33,057 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetmail(com.moviemanager.server.jdo.User objPC)"
+17:55:33,057 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetmail(com.moviemanager.server.jdo.User objPC, java.lang.String val)"
+17:55:33,057 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetnick(com.moviemanager.server.jdo.User objPC)"
+17:55:33,057 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetnick(com.moviemanager.server.jdo.User objPC, java.lang.String val)"
+17:55:33,057 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String dnGetpassword(com.moviemanager.server.jdo.User objPC)"
+17:55:33,058 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetpassword(com.moviemanager.server.jdo.User objPC, java.lang.String val)"
+17:55:33,058 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.util.List dnGetplayLstUser(com.moviemanager.server.jdo.User objPC)"
+17:55:33,058 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void dnSetplayLstUser(com.moviemanager.server.jdo.User objPC, java.util.List val)"
+17:55:33,058 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/Users/serhatsahin/Desktop/git-moviemanager/SPQ_04/target/classes/com/moviemanager/server/jdo/User.class" with enhanced definition
+17:55:33,059 (main) INFO  [DataNucleus.Enhancer] - ENHANCED (Persistable) : com.moviemanager.server.jdo.User
+17:55:33,059 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.moviemanager.server.jdo.User" completed
+17:55:33,060 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 6 classes. Timings : input=371 ms, enhance=141 ms, total=512 ms. Consult the log for full details
